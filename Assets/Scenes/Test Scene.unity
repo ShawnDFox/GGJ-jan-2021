@@ -383,7 +383,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Carga: 0
   Salud: 0
-  Velocidad: 0
+  Velocidad: 2
   Infrarojo: 0
   Defensa: 0
 --- !u!114 &1482619870
@@ -398,6 +398,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f9ac0aeda5e373449b55a124fedf6e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Salud_max: 100
+  Carga_max: 100
+  Velocidad_max: 6
+  Defensa_max: 20
 --- !u!212 &1482619871
 SpriteRenderer:
   m_ObjectHideFlags: 0
