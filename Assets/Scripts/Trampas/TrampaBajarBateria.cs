@@ -1,10 +1,12 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TrampaBajarBateria : MonoBehaviour
 {
+    [SerializeField]private int cantidadABajar=-2;
+    [SerializeField]private float tiempoEspera=0.5f;
     private event Action<int> BajarBateria;
     private bool descargarBateria;
     private void Start() {
@@ -16,7 +18,8 @@ public class TrampaBajarBateria : MonoBehaviour
     private IEnumerator BajarNivelBateria(){
         
         if(descargarBateria){
-            yield return new WaitForSeconds(0.5f);
+            Debug.Log("descargando");
+            yield return new WaitForSeconds(tiempoEspera);
             BajarBateria(-2);
             StartCoroutine(BajarNivelBateria());  
         }
