@@ -17,14 +17,14 @@ public class EscenaManager : MonoBehaviour
     private void Start() { 
         if(!escenaSinPausa) FindObjectOfType<CharacterInputs>().PauseGame+=Pause;
     }
-    private void Update() {
+    /*private void Update() {
         //Checks if the scene requires to pause
         if (Input.GetKeyDown(KeyCode.P))
         {
             Pause();
         }
 
-    }
+    }*/
     //Pause
     public void Pause(){
         pauseON = !pauseON;
