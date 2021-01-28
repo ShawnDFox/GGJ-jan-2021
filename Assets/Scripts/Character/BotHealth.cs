@@ -35,7 +35,7 @@ public class BotHealth : MonoBehaviour
         Salud -= damage; 
     }
 
-    private void Charge(int amount)
+    public void Charge(int amount)
     {
         if (Carga <= Carga_max)
             Carga += amount;

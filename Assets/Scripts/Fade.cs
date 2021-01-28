@@ -10,7 +10,7 @@ public class Fade : MonoBehaviour
     void Start()
     {
         anim=GetComponent<Animator>();
-        FindObjectOfType<EscenaManager>().FadeAnimation = StartAnimation;
+        FindObjectOfType<EscenaManager>().FadeAnimation += StartAnimation;
     }
     public void StartAnimation(){
         anim.SetBool("Oscurecer",true);
