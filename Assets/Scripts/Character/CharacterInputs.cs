@@ -11,6 +11,7 @@ public class CharacterInputs : MonoBehaviour
 
     public event Action OnInteract=delegate { };
     public event Action<float,float> OnMove;
+    public event Action PauseGame;
 
     // Update is called once per frame
     void Update()
@@ -25,6 +26,11 @@ public class CharacterInputs : MonoBehaviour
         if (Interact)
         {
             OnInteract();
+        }
+
+        //Pausar o despausar juego
+        if(Input.GetButtonDown("Pause")){
+            PauseGame?.Invoke();
         }
     }
 }

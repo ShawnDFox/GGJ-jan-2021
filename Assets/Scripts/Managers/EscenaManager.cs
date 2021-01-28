@@ -6,44 +6,38 @@ using UnityEngine.SceneManagement;
 
 public class EscenaManager : MonoBehaviour
 {
-    public Action FadeAnimation;
+    public event Action FadeAnimation;
+    [SerializeField] private bool escenaSinPausa=false;
     [SerializeField]private float retraso;
     [Header("Pause")]
     [SerializeField]private GameObject menuPause;
-    private bool sceneNoPause;
-    private bool pauseON;
+    private bool pauseON=false;
     private int level;
 
-    void Start()
-    {
-        
-        pauseON=false;
-        //Checa si es la primera escena, por lo cuál no requiere pausa
-        /*if(SceneManager.GetActiveScene().buildIndex==0){
-            sceneNoPause=true;
-        }*/
+    private void Start() { 
+        if(!escenaSinPausa) FindObjectOfType<CharacterInputs>().PauseGame+=Pause;
     }
     private void Update() {
         //Checks if the scene requires to pause
-        if(!sceneNoPause){
-            if(Input.GetKeyDown(KeyCode.P)){
-                pauseON=!pauseON;
-                if(pauseON){
-                    Pause(0);
-                    menuPause.SetActive(true);
-                } else {
-                    Pause(1);
-                    menuPause.SetActive(false);
-                }
-            }    
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            Pause();
         }
-        
+
     }
     //Pause
-    public void Pause(int time){
-        Time.timeScale=time;
-        //Se pone este if en caso de que un boton de pausa desactive la pausa
-        if(time==1) pauseON=false;
+    public void Pause(){
+        pauseON = !pauseON;
+        if (pauseON)
+        {
+            Time.timeScale=0f;
+            menuPause.SetActive(true);
+        }
+        else
+        {
+            Time.timeScale=1f;
+            menuPause.SetActive(false);
+        }
     } 
     
 #region Music
@@ -65,7 +59,7 @@ public class EscenaManager : MonoBehaviour
         ChooseLevel((SceneManager.GetActiveScene().buildIndex)+1);
     }
     public void ChooseLevel(int levelToChoose){
-        Pause(1);
+        if(pauseON) Pause();
         level=levelToChoose;
         FadeAnimation();
         Invoke("Level",retraso);
@@ -74,7 +68,7 @@ public class EscenaManager : MonoBehaviour
         SceneManager.LoadScene(level);
     }
     public void RestartLevel(){
-        Pause(1);
+        if(pauseON) Pause();
         FadeAnimation();
         Invoke("Restart",retraso);
     }
