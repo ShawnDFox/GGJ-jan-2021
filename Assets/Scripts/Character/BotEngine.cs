@@ -38,8 +38,9 @@ public class BotEngine : MonoBehaviour
         transform.Translate(movement * Time.deltaTime * Velocidad);
     }
 
-    
-
+    public void ChangeSpeed(int amount){
+        Velocidad=amount;
+    }
    
     /*private void OnTriggerStay2D(Collider2D collision)
     {
