@@ -52,6 +52,10 @@ public class BotHealth : MonoBehaviour
         {
             OnPlayerLose?.Invoke();
         }
+        if (Carga > 0)
+        {
+            Carga -= 0.005f;
+        }
 
     }
 

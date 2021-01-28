@@ -18,11 +18,6 @@ public class BotEngine : MonoBehaviour
         //GetComponent<CharacterInputs>().OnInteract += Interact;
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     private void Move(float Hor,float vert)
     {

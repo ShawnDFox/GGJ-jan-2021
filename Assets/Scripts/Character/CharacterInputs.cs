@@ -17,10 +17,12 @@ public class CharacterInputs : MonoBehaviour
     {
         Horizontal = Input.GetAxis("Horizontal");
         Vertical = Input.GetAxis("Vertical");
+
         if (Horizontal != 0 || Vertical != 0)
         {
             OnMove(Horizontal,Vertical);
         }
+
         Interact = Input.GetButtonDown("Interact");
         if (Interact)
         {
