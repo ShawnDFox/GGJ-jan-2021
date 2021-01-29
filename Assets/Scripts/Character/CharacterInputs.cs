@@ -11,6 +11,7 @@ public class CharacterInputs : MonoBehaviour
 
     public event Action OnInteract=delegate { };
     public event Action<float,float> OnMove;
+    public event Action SalirTrampa;
     public event Action PauseGame;
 
     // Update is called once per frame

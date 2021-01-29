@@ -45,13 +45,13 @@ public class BotHealth : MonoBehaviour
         OnTakeDamage(Salud);
     }
 
-    private void Heal(int damage)
+    public void Heal(int damage)
     {
         Salud += damage;
         OnHeal(Salud);
     }
 
-    public void Charge(int amount)
+    public void Charge(float amount)
     {
         if (Carga <= Carga_max)
             Carga += amount;
