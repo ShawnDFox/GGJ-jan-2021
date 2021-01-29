@@ -21,12 +21,19 @@ public class BotInventory : MonoBehaviour
     public event Action<String,int,int> OnItemPickup;
 
     //referencia a  las partes las cuales debemos tener en el bot
+    private void Start()
+    {
+        setQuest(1, 1, 1);
+    }
 
     public void setQuest(int Torn, int cabl, int chip)
     {
         Get_Tornillos = Torn;
-        Get_Cables = Cables;
+        Get_Cables = cabl;
         Get_Chips = chip;
+        OnItemPickup("Tornillo", 0, Get_Tornillos);
+        OnItemPickup("Cable", 0, Get_Tornillos);
+        OnItemPickup("Chip", 0, Get_Tornillos);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

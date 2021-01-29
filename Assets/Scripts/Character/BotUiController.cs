@@ -25,17 +25,18 @@ public class BotUiController : MonoBehaviour
 
     }
 
+    
     private void PickUp(string arg1, int arg2, int arg3)
     {
         switch (arg1)
         {
-            case "Tornillos":
+            case "Tornillo":
                  Tornillos.text = $":{arg2}/{arg3}";
                 break;
-            case "Cables":
+            case "Cable":
                 Cables.text = $":{arg2}/{arg3}";
                 break;
-            case "Chips":
+            case "Chip":
                 Chips.text = $":{arg2}/{arg3}";
                 break;
         }
