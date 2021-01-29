@@ -21,6 +21,24 @@ public class BotUiController : MonoBehaviour
         GetComponent<BotHealth>().OnDisCharge += ChargeCount;
         GetComponent<BotHealth>().OnHeal += HealthCount;
         GetComponent<BotHealth>().OnTakeDamage += HealthCount;
+        GetComponent<BotInventory>().OnItemPickup += PickUp;
+
+    }
+
+    private void PickUp(string arg1, int arg2, int arg3)
+    {
+        switch (arg1)
+        {
+            case "Tornillos":
+                 Tornillos.text = $":{arg2}/{arg3}";
+                break;
+            case "Cables":
+                Cables.text = $":{arg2}/{arg3}";
+                break;
+            case "Chips":
+                Chips.text = $":{arg2}/{arg3}";
+                break;
+        }
     }
 
     private void setPower(int val)
