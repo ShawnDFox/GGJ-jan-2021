@@ -7,7 +7,7 @@ public class TrampaElectricidad : MonoBehaviour
     [SerializeField]private int cantidadABajar=-2;
     [SerializeField]private float tiempoEsperaElectricidad=1.5f;
     [SerializeField]private ParticleSystem particle;
-    private event Action<int> BajarBateria;
+    private event Action<float> BajarBateria;
     private bool jugadorDentro;
     private void Start() {
         BajarBateria=FindObjectOfType<BotHealth>().Charge;
