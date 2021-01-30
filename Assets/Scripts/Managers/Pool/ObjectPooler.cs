@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class ObjectPooler : MonoBehaviour
 {
+    [System.Serializable]
+    public class Pool
+    {
+        public string Type;
+        public GameObject Prefab;
+        public int Size;
+    }
 
     public List<Pool> pools;
 
@@ -22,27 +29,28 @@ public class ObjectPooler : MonoBehaviour
         {
             Destroy(this);
         }
-
+        poolDictionary = new Dictionary<string, Queue<GameObject>>();
     }
 
     void Start()
     {
-        poolDictionary = new Dictionary<string, Queue<GameObject>>();
+        
 
     }
 
     public void NewPool(int size, string type, GameObject prefab)
     {
-        Pool pool = new Pool();
-
-        pool.Type = type;
-        pool.Prefab = prefab;
-        pool.Size = size;
+        Pool pool = new Pool
+        {
+            Type = type,
+            Prefab = prefab,
+            Size = size
+        };
 
         pools.Add(pool);//solo se veria desde el inspector
-
+        
         poolDictionary.Add(pool.Type, PrewarmPool(pool));
-        //Debug.Log("pool created " + pool.type);
+        Debug.Log("pool created " + pool.Type);
 
 
     }
@@ -54,7 +62,7 @@ public class ObjectPooler : MonoBehaviour
         for (int i = 0; i < pool.Size; i++)
         {
             GameObject obj = Instantiate(pool.Prefab);
-            obj.transform.position = new Vector3(-20, 0, 0);
+            obj.transform.position = new Vector3(0, 0, 0);
             obj.SetActive(false);
 
             obj.transform.SetParent(this.transform);//orden en la jerarquia

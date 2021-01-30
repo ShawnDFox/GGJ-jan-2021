@@ -42,7 +42,8 @@ public class BotInventory : MonoBehaviour
     {
         switch (collision.tag)
         {
-            case "Tornillo": OnItemPickup(collision.tag, 1, Get_Tornillos);
+            case "Tornillo":
+                OnItemPickup(collision.tag, 1, Get_Tornillos);
                 break;
             case "Cable":
                 OnItemPickup(collision.tag, 1, Get_Cables);
@@ -51,7 +52,8 @@ public class BotInventory : MonoBehaviour
                 OnItemPickup(collision.tag, 1, Get_Chips);
                 break;
         }
-        
+        collision.gameObject.SetActive(false);
+
     }
 
 }

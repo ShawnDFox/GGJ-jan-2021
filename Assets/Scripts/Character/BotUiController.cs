@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
+using UnityEngine.UI;
 
 public class BotUiController : MonoBehaviour
 {
@@ -12,6 +13,14 @@ public class BotUiController : MonoBehaviour
     public TextMeshProUGUI Tornillos;
     public TextMeshProUGUI Cables;
     public TextMeshProUGUI Chips;
+
+    public Image Tornillo;
+    public Image Cable;
+    public Image Chip;
+
+    public Sprite TornilloColor;
+    public Sprite CableColor;
+    public Sprite ChipColor;
 
     private void Awake()
     {
@@ -33,12 +42,24 @@ public class BotUiController : MonoBehaviour
         {
             case "Tornillo":
                  Tornillos.text = $"{arg2}/{arg3}";
+                if (arg2 > 0)
+                {
+                    Tornillo.sprite = TornilloColor;
+                }
                 break;
             case "Cable":
                 Cables.text = $"{arg2}/{arg3}";
+                if (arg2 > 0)
+                {
+                    Cable.sprite = CableColor;
+                }
                 break;
             case "Chip":
                 Chips.text = $"{arg2}/{arg3}";
+                if (arg2 > 0)
+                {
+                    Chip.sprite = ChipColor;
+                }
                 break;
         }
     }

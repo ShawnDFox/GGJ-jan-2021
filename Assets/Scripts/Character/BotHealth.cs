@@ -17,15 +17,14 @@ public class BotHealth : MonoBehaviour
     public int Defensa;
     
     public bool Infrarojo;
-    
 
-    public event Action OnPlayerLose;
+    public event Action<int> SetHP;
+    public event Action<int> SetPower;
     public event Action<float> OnCharge;
     public event Action<float> OnDisCharge;
     public event Action<float> OnTakeDamage;
     public event Action<float> OnHeal;
-    public event Action<int> SetHP;
-    public event Action<int> SetPower;
+    public event Action OnPlayerLose;
 
     private void OnEnable()
     {

@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class CharacterInputs : MonoBehaviour
 {
-    public float Horizontal;
-    public float Vertical;
+    private float Horizontal;
+    private float Vertical;
     public bool Interact;
 
     public event Action OnInteract=delegate { };
     public event Action<float,float> OnMove;
-    public event Action SalirTrampa;
+    //public event Action SalirTrampa;
     public event Action PauseGame;
 
     // Update is called once per frame
