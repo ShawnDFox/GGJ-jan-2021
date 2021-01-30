@@ -6,7 +6,7 @@ using System;
 public class BotHealth : MonoBehaviour
 {
     [SerializeField]
-    private int Salud_max;
+    private int Salud_max =100;
     [SerializeField]
     private int Carga_max;
     [SerializeField]
@@ -29,10 +29,11 @@ public class BotHealth : MonoBehaviour
 
     private void OnEnable()
     {
-        Salud = Salud_max;
-        Carga = Carga_max;
         SetHP(Salud_max);
         SetPower(Carga_max);
+        Salud = Salud_max;
+        Carga = Carga_max;
+        
         OnHeal(Salud);
         OnCharge(Carga);
         //OnplayerSlow += SlowCalc; subscripcion para metodos que alenticen al jugador

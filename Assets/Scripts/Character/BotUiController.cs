@@ -15,12 +15,13 @@ public class BotUiController : MonoBehaviour
 
     private void Awake()
     {
-        GetComponent<BotHealth>().SetHP += setHp;
-        GetComponent<BotHealth>().SetPower += setPower;
-        GetComponent<BotHealth>().OnCharge += ChargeCount;
-        GetComponent<BotHealth>().OnDisCharge += ChargeCount;
-        GetComponent<BotHealth>().OnHeal += HealthCount;
-        GetComponent<BotHealth>().OnTakeDamage += HealthCount;
+        var botHeatlh = GetComponent<BotHealth>();
+        botHeatlh.SetHP += setHp;
+        botHeatlh.SetPower += setPower;
+        botHeatlh.OnCharge += ChargeCount;
+        botHeatlh.OnDisCharge += ChargeCount;
+        botHeatlh.OnHeal += HealthCount;
+        botHeatlh.OnTakeDamage += HealthCount;
         GetComponent<BotInventory>().OnItemPickup += PickUp;
 
     }
@@ -31,19 +32,20 @@ public class BotUiController : MonoBehaviour
         switch (arg1)
         {
             case "Tornillo":
-                 Tornillos.text = $":{arg2}/{arg3}";
+                 Tornillos.text = $"{arg2}/{arg3}";
                 break;
             case "Cable":
-                Cables.text = $":{arg2}/{arg3}";
+                Cables.text = $"{arg2}/{arg3}";
                 break;
             case "Chip":
-                Chips.text = $":{arg2}/{arg3}";
+                Chips.text = $"{arg2}/{arg3}";
                 break;
         }
     }
 
     private void setPower(int val)
     {
+        Debug.Log("Setting Value");
         Charge.setMaxVal(val);
     }
 

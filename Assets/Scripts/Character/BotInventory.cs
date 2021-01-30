@@ -18,6 +18,8 @@ public class BotInventory : MonoBehaviour
     public int Get_Cables=1;
     public int Get_Chips=1;
 
+    bool Completed = false;
+
     public event Action<String,int,int> OnItemPickup;
 
     //referencia a  las partes las cuales debemos tener en el bot

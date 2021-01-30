@@ -21,8 +21,7 @@ public class BotEngine : MonoBehaviour
 
     private void Move(float Hor,float vert)
     {
-        //
-        Debug.Log("Moving");
+        //Debug.Log("Moving");
         if (Hor != 0)
         {
             vert = 0;
