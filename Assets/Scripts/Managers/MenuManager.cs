@@ -32,6 +32,10 @@ public class MenuManager : MonoBehaviour
     {
         Lose.SetActive(true);
     }
+    private void WinHandler()
+    {
+        Win.SetActive(true);
+    }
 
     public void GameStart()
     {

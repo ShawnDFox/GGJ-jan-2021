@@ -28,10 +28,10 @@ public class TrampaAtrapar : MonoBehaviour
     {
         try
         {
-            //interfazBoton = transform.FindChild("Trampa Atrapar").gameObject;
+            /*interfazBoton = transform.FindChild("Trampa Atrapar").gameObject;
             interfazBoton = GameObject.Find("Trampa Atrapar").gameObject;
             circuloRecarga = interfazBoton.transform.Find("Linea Recarga").GetComponent<Image>();
-
+            */
             interfazBoton.SetActive(false);
         }
         catch (System.Exception e)

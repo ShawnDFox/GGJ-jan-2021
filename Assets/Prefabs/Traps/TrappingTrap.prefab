@@ -158,8 +158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61480e855d547ca49a083918c1ee9201, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interfazBoton: {fileID: 0}
-  circuloRecarga: {fileID: 0}
+  interfazBoton: {fileID: 6947591680725694394}
+  circuloRecarga: {fileID: 6947591679876626958}
   maximoOprimirVecesLiberarse: 10
   tiempo: 5
   cantidadVidaAQuitar: 10
@@ -363,9 +363,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2848ea7b86f57c54a8c059c12e6d3f2d, type: 3}
+--- !u!1 &6947591680725694394 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4387272470418024042, guid: 2848ea7b86f57c54a8c059c12e6d3f2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6667707633249604048}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &6947591680725694397 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 4387272470418024045, guid: 2848ea7b86f57c54a8c059c12e6d3f2d,
     type: 3}
   m_PrefabInstance: {fileID: 6667707633249604048}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6947591679876626958 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4387272471179537374, guid: 2848ea7b86f57c54a8c059c12e6d3f2d,
+    type: 3}
+  m_PrefabInstance: {fileID: 6667707633249604048}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

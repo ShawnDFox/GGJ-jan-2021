@@ -87,6 +87,7 @@ public class QuestController : MonoBehaviour
     public void GenerateQuest(int level)
     {
         botInventory = FindObjectOfType<BotInventory>();
+        deliveringPoint.enabled = false;
         tareaCompleta =false;
         //Desactiva y ubica en la posicion zero los objetos
         if(objetosRecolectables.Count>=1)DesactivarObjetos(objetosRecolectables);
@@ -153,7 +154,7 @@ public class QuestController : MonoBehaviour
             botInventory.cantidadObjetosARecoger[posicion].cantidadARecoger=cantidadASpawnear;
             botInventory.cantidadObjetosARecoger[posicion].cantidadActual=0;
         }
-        Debug.Log($"//======================= Type {tagObjeto}, Size {cantidadASpawnear}, objType {tipoDeObjeto} =============================//");
+        //Debug.Log($"//======================= Type {tagObjeto}, Size {cantidadASpawnear}, objType {tipoDeObjeto} =============================//");
         for (int i = 0; i < cantidadASpawnear; i++)
         {
             int posicionTipoDeObjeto = GetPositionTypeOfPoint(tipoDeObjeto);

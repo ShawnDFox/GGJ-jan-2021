@@ -6,11 +6,11 @@ using System;
 public class BotHealth : MonoBehaviour
 {
     [SerializeField]
-    private int Salud_max =100;
+    public int Salud_max =100;
     [SerializeField]
-    private int Carga_max;
+    public int Carga_max;
     [SerializeField]
-    private int Defensa_max;
+    public int Defensa_max;
 
     public float Carga;
     public int Salud;
@@ -53,8 +53,10 @@ public class BotHealth : MonoBehaviour
 
     public void Charge(float amount)
     {
-        if (Carga <= Carga_max)
+        if (Carga < Carga_max )
+
             Carga += amount;
+
         OnCharge(Carga);
     }
 

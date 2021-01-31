@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
             Destroy(this);
         }
         #endregion
+
         questmanager = GetComponent<QuestController>();
         questmanager.TerminarNivel += nextlevel;
         player.GetComponent<BotHealth>().OnPlayerLose += RestartLevel;
@@ -51,6 +52,7 @@ public class GameManager : MonoBehaviour
 
     private void nextlevel(GameObject obj)
     {
+
         Currentlevel++;
         player.transform.position = new Vector3(PlayerstartPos.position.x, PlayerstartPos.position.y, PlayerstartPos.position.z);
         questmanager.GenerateQuest(Currentlevel);
@@ -70,6 +72,7 @@ public class GameManager : MonoBehaviour
 
    
     //posiblemente activado desde el menu
+    
     public void QuestAnim()
     {
 
