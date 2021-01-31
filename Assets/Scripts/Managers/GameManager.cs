@@ -35,19 +35,26 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        player.SetActive(true);
+        
     }
     //posiblemente activado desde el menu
+    public void QuestAnim()
+    {
+
+    }
     public void FirstLevel()
     {
+        QuestAnim();//cambiar por corutina para evitar activar el personaje? o buscar la forma que el personaje no pierda energia cuando no puede moverse
         /*
+              play the timeline possibly....
               relocate object in scene randomizer code posiblemente parte de questController
 
               relocate player to the new spawn point and give a charge level
               
 
          */
-        Quests.GenerateQuest(Currentlevel);//Give first quest
+        //Quests.GenerateQuest(Currentlevel);//Give first quest
+        player.SetActive(true);
     }
 
     // Update is called once per frame
@@ -60,6 +67,7 @@ public class GameManager : MonoBehaviour
                //codigo de transicion del nivel
 
                relocate object in scene randomizer code
+
                relocate player to the new spawn point and give a charge level
 
                if (currentlevel % 5=0)//cada 5 niveles
@@ -71,8 +79,9 @@ public class GameManager : MonoBehaviour
            }else
            {
              //reiniciar nivel
+             //codigo de transicion del nivel
              reuvicar el jugador a la salida ya existente y darle un nivel de carga
-
+             Quests.GenerateQuest(Currentlevel)
            }
          */
     }

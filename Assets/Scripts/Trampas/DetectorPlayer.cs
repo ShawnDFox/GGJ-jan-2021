@@ -5,23 +5,25 @@ using UnityEngine;
 
 public class DetectorPlayer : MonoBehaviour
 {
-    public Action JugadorEntro;
-    public Action JugadorSalio;
-    public Action MientrasJugadorEsta;
+    public Action<GameObject> JugadorEntro;
+    public Action<GameObject> JugadorSalio;
+    public Action<GameObject> MientrasJugadorEsta;
+
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == "Player")
         {
-            JugadorEntro?.Invoke();
+            JugadorEntro?.Invoke(other.gameObject);
+            
         }
     }
     private void OnTriggerStay2D(Collider2D other) {
         if(other.gameObject.tag=="Player"){
-            MientrasJugadorEsta?.Invoke();
+            MientrasJugadorEsta?.Invoke(other.gameObject);
         }
     }
     private void OnTriggerExit2D(Collider2D other) {
         if(other.gameObject.tag=="Player"){
-            JugadorSalio?.Invoke();
+            JugadorSalio?.Invoke(other.gameObject);
         }
     }
 }

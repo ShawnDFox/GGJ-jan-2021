@@ -39,7 +39,7 @@ public class BotHealth : MonoBehaviour
     }
 
     
-    private void TakeDamage(int damage)
+    public void TakeDamage(int damage)
     {
         Salud -= damage;
         OnTakeDamage(Salud);
@@ -58,7 +58,7 @@ public class BotHealth : MonoBehaviour
         OnCharge(Carga);
     }
 
-    private void DisCharge(int amount)
+    public void DisCharge(int amount)
     {
         Carga -= amount;
         OnDisCharge(Carga);

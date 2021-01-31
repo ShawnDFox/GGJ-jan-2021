@@ -66,7 +66,7 @@ public class BotUiController : MonoBehaviour
 
     private void setPower(int val)
     {
-        Debug.Log("Setting Value");
+        //Debug.Log("Setting Value");
         Charge.setMaxVal(val);
     }
 

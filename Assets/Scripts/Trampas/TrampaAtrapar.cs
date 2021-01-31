@@ -14,17 +14,34 @@ public class TrampaAtrapar : MonoBehaviour
     [SerializeField]private int maximoOprimirVecesLiberarse;
     [SerializeField]private int tiempo;
     [SerializeField]private int cantidadVidaAQuitar;
-    private Action<int> CambiarVelocidad;
-    private Action<int> QuitarVida;
+
+    private BotEngine CambiarVelocidad;
+    private BotHealth QuitarVida;
+
     private Action<float> EfectoDañoPocoAPoco;
     private CharacterInputs characterInputs;
     private bool jugadorEntro;
     private int counter=0;
     private int originalSpeed;
+
+    private void Awake()
+    {
+        interfazBoton = GameObject.Find("Trampa Atrapar").gameObject;
+        circuloRecarga = interfazBoton.transform.Find("Linea Recarga").GetComponent<Image>();
+
+        interfazBoton.SetActive(false);
+
+    }
+
     void Start()
     {
+        EfectoDañoPocoAPoco = FindObjectOfType<EfectosVisualesVolume>().EfectoViñeta;
+        GetComponent<DetectorPlayer>().JugadorEntro += trapped;
+        GetComponent<DetectorPlayer>().JugadorSalio += Released;
+
+
         //EfectoDañoPocoAPoco= Camera.main.GetComponent<>().
-        EfectoDañoPocoAPoco=FindObjectOfType<EfectosVisualesVolume>().EfectoViñeta;
+        /*EfectoDañoPocoAPoco=FindObjectOfType<EfectosVisualesVolume>().EfectoViñeta;
 
         BotEngine botEngine= FindObjectOfType<BotEngine>();
         CambiarVelocidad=botEngine.ChangeSpeed;
@@ -43,19 +60,39 @@ public class TrampaAtrapar : MonoBehaviour
         detectorPlayer.JugadorSalio= ()=> {
             jugadorEntro=false;
         };
+        */
+
     }
-    
+
+    private void Released(GameObject obj)
+    {
+        jugadorEntro = false;
+    }
+
+    private void trapped(GameObject obj)
+    {
+        //obtiene los compoenentes del bot que vienen desde el delegado de detector players
+        CambiarVelocidad = obj.GetComponent<BotEngine>();
+        QuitarVida = obj.GetComponent<BotHealth>();
+        characterInputs = obj.GetComponent<CharacterInputs>();
+
+        originalSpeed = CambiarVelocidad.Velocidad;//obtiene la velocidad el bot
+        CambiarVelocidad.ChangeSpeed(originalSpeed / 2);//cambia la velocidad del bot
+
+        Invoke("JugadorDentro", 0.5f);
+    }
+
     private void JugadorDentro(){
         EfectoDañoPocoAPoco(tiempo);
         interfazBoton.SetActive(true);
         characterInputs.OnInteract += AtrapandoJugador;
-        CambiarVelocidad(0);
+        CambiarVelocidad.ChangeSpeed(0);//acceso al metodo que tiene botEngine
         jugadorEntro = true;
         StartCoroutine(SacarAlJugadorTrampa());
     }
     IEnumerator SacarAlJugadorTrampa(){
         yield return new WaitForSeconds(tiempo);
-        //QuitarVida(cantidadVidaAQuitar);
+        QuitarVida.TakeDamage(cantidadVidaAQuitar);
         SacarJugador();
     }
     private void AtrapandoJugador(){
@@ -77,7 +114,7 @@ public class TrampaAtrapar : MonoBehaviour
     {
         interfazBoton.SetActive(false);
         circuloRecarga.fillAmount=0;
-        CambiarVelocidad(originalSpeed);
+        CambiarVelocidad.ChangeSpeed(originalSpeed);//acceso al metodo que tiene botEngine reestablecer velocidad
         characterInputs.OnInteract -= AtrapandoJugador;
         gameObject.SetActive(false);
     }

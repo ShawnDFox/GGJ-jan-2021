@@ -44,15 +44,18 @@ public class BotInventory : MonoBehaviour
         {
             case "Tornillo":
                 OnItemPickup(collision.tag, 1, Get_Tornillos);
+                collision.gameObject.SetActive(false);
                 break;
             case "Cable":
                 OnItemPickup(collision.tag, 1, Get_Cables);
+                collision.gameObject.SetActive(false);
                 break;
             case "Chip":
                 OnItemPickup(collision.tag, 1, Get_Chips);
+                collision.gameObject.SetActive(false);
                 break;
         }
-        collision.gameObject.SetActive(false);
+        
 
     }
 

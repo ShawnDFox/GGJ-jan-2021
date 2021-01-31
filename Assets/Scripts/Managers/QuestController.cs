@@ -7,10 +7,12 @@ public class QuestController : MonoBehaviour
     public GameObject TornilloPrefab;
     public GameObject CablePrefab;
     public GameObject ChipPrefab;
+    
 
     public List<Transform> TrapPoints;
     public List<Transform> DropPoints;
     public List<Transform> HelpPoints;
+   
 
     private int carry_capacity = 15;
 
@@ -35,7 +37,7 @@ public class QuestController : MonoBehaviour
     //logica para idear cuantos elementos debemos pedirle al jugador que recoja dependiendo del nivel actual
     public void GenerateQuest(int level)
     {
-
+        
     }
     
 }
