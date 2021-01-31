@@ -11,6 +11,7 @@ public class QuestController : MonoBehaviour
     public List<TipoDeObjetoASpawnear> objetosASpawnear=new List<TipoDeObjetoASpawnear>();
 
     //public List<Transform> PlayerSpawn;
+   
     private List<PointsOfSpawn> puntosDeSpawn=new List<PointsOfSpawn>(1);
 
     private int carry_capacity = 15;
@@ -29,8 +30,9 @@ public class QuestController : MonoBehaviour
         Facil,Medio,Dificil
     }
     private Dificultad nivelDeDificultad;
+
     public event Action<String, int, int> PickUp;
-    public event Action TerminarNivel;
+    public event Action<GameObject> TerminarNivel;
 
     // Start is called before the first frame update
     void Awake()
@@ -42,10 +44,10 @@ public class QuestController : MonoBehaviour
 
     private void Start()
     {   
-        botInventory=FindObjectOfType<BotInventory>();
+        
         //Obtiene y asigna el evento de productos entregados
         deliveringPoint.enabled=false;
-        TerminarNivel+=()=>{tareaCompleta=true; Debug.Log("Termino");};
+        TerminarNivel+=(GameObject obj)=>{tareaCompleta=true; Debug.Log("Termino");};
         deliveringPoint.GetComponent<DetectorPlayer>().JugadorEntro=TerminarNivel;
 
         //Busca los puntos de spawn
@@ -79,19 +81,13 @@ public class QuestController : MonoBehaviour
         }
 
     }
-    private void Update() {
-        if(Input.GetKeyDown(KeyCode.E)){
-            GenerateQuest(1);
-        }
-    }
+   
 #region GenerarQuest
     //logica para idear cuantos elementos debemos pedirle al jugador que recoja dependiendo del nivel actual
     public void GenerateQuest(int level)
     {
-<<<<<<< HEAD
-        
-=======
-        tareaCompleta=false;
+        botInventory = FindObjectOfType<BotInventory>();
+        tareaCompleta =false;
         //Desactiva y ubica en la posicion zero los objetos
         if(objetosRecolectables.Count>=1)DesactivarObjetos(objetosRecolectables);
         if(trampas.Count>=1) DesactivarObjetos(trampas);
@@ -112,7 +108,7 @@ public class QuestController : MonoBehaviour
         switch (dificultad)
         {
             case Dificultad.Facil:
-                GeneradorDificultad(1,3,5,10,1,2);
+                GeneradorDificultad(1,3,5,10,3,5);
             break;
             case Dificultad.Medio:
                 GeneradorDificultad(3,6,15,20,2,3);
@@ -132,6 +128,7 @@ public class QuestController : MonoBehaviour
             int randomNumber=UnityEngine.Random.Range(minimoObjetosAGenerar,maximoObjetosAGenerar);
             GenerarObjetosAleatorios(objetosRecolectables, TypeOfPoints.Recogible, objetosASpawnear[positionTypeOfObject].objetosASpawnear[i].tag, randomNumber);
         }
+        
         //Genera las trampas
         positionTypeOfObject = GetPositionTypeOfObjectToSpawn(TypeOfPoints.Trampa);
         for (int i = 0; i < objetosASpawnear[positionTypeOfObject].objetosASpawnear.Count; i++)
@@ -143,7 +140,7 @@ public class QuestController : MonoBehaviour
         positionTypeOfObject = GetPositionTypeOfObjectToSpawn(TypeOfPoints.PuntoDeAyuda);
         for (int i = 0; i < objetosASpawnear[positionTypeOfObject].objetosASpawnear.Count; i++)
         {
-            int randomNumber=UnityEngine.Random.Range(minimoAyudas,maximoAyudas);
+            int randomNumber = UnityEngine.Random.Range(minimoAyudas, maximoAyudas);
             GenerarObjetosAleatorios(objetosAyuda, TypeOfPoints.PuntoDeAyuda, objetosASpawnear[positionTypeOfObject].objetosASpawnear[i].tag, randomNumber);
         }
 
@@ -156,7 +153,7 @@ public class QuestController : MonoBehaviour
             botInventory.cantidadObjetosARecoger[posicion].cantidadARecoger=cantidadASpawnear;
             botInventory.cantidadObjetosARecoger[posicion].cantidadActual=0;
         }
-
+        Debug.Log($"//======================= Type {tagObjeto}, Size {cantidadASpawnear}, objType {tipoDeObjeto} =============================//");
         for (int i = 0; i < cantidadASpawnear; i++)
         {
             int posicionTipoDeObjeto = GetPositionTypeOfPoint(tipoDeObjeto);
@@ -273,7 +270,6 @@ public class QuestController : MonoBehaviour
     public enum TypeOfPoints
     {
         Trampa, Recogible, PuntoDeAyuda
->>>>>>> fdf75c2c0013c713cf6ebdb53dcbe60f83585880
     }
 #endregion
 }

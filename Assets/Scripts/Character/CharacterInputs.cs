@@ -5,7 +5,9 @@ using UnityEngine;
 
 public class CharacterInputs : MonoBehaviour
 {
+    [SerializeField]
     private float Horizontal;
+    [SerializeField]
     private float Vertical;
     public bool Interact;
 

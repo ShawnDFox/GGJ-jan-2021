@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,6 +10,8 @@ public class GameManager : MonoBehaviour
     public QuestController Quests;
 
     public GameObject player;
+    Transform PlayerstartPos;
+    
     
     //public TrapManager ;
     //Public questGiver;
@@ -16,6 +19,8 @@ public class GameManager : MonoBehaviour
     int Currentlevel=1;
     bool CanMove;
     bool IsPlaying;
+
+    private QuestController questmanager;
 
     private void Awake()
     {
@@ -28,20 +33,48 @@ public class GameManager : MonoBehaviour
             Destroy(this);
         }
         #endregion
-
-
+        questmanager = GetComponent<QuestController>();
+        questmanager.TerminarNivel += nextlevel;
+        player.GetComponent<BotHealth>().OnPlayerLose += RestartLevel;
+        PlayerstartPos = player.transform;
     }
 
-    // Start is called before the first frame update
-    void Start()
+    private void RestartLevel()
     {
-        
+        //reiniciar nivel
+        //codigo de transicion del nivel
+        //reuvicar al jugador
+        player.transform.position = new Vector3( PlayerstartPos.position.x,PlayerstartPos.position.y,PlayerstartPos.position.z);
+
+        questmanager.GenerateQuest(Currentlevel);
     }
+
+    private void nextlevel(GameObject obj)
+    {
+        Currentlevel++;
+        player.transform.position = new Vector3(PlayerstartPos.position.x, PlayerstartPos.position.y, PlayerstartPos.position.z);
+        questmanager.GenerateQuest(Currentlevel);
+
+
+        /* 
+               
+
+               //codigo de transicion del nivel
+
+               if (currentlevel % 5=0)//cada 5 niveles
+               {
+                 Dar mejora al jugador
+               }
+         */
+    }
+
+   
     //posiblemente activado desde el menu
     public void QuestAnim()
     {
 
     }
+
     public void FirstLevel()
     {
         QuestAnim();//cambiar por corutina para evitar activar el personaje? o buscar la forma que el personaje no pierda energia cuando no puede moverse
@@ -55,34 +88,8 @@ public class GameManager : MonoBehaviour
          */
         //Quests.GenerateQuest(Currentlevel);//Give first quest
         player.SetActive(true);
+        questmanager.GenerateQuest(Currentlevel);//posiblemente dentro de coorutina
+        
     }
 
-    // Update is called once per frame
-    void Update()//tal vez cambiar por un metodo el cual lea de quest manager
-    {
-        /* if(Questgiver.completed == True && Player can move)
-           {
-               currentlevel ++;
-
-               //codigo de transicion del nivel
-
-               relocate object in scene randomizer code
-
-               relocate player to the new spawn point and give a charge level
-
-               if (currentlevel % 5=0)//cada 5 niveles
-               {
-                 Dar mejora al jugador
-               }
-
-               Quests.GenerateQuest(Currentlevel)
-           }else
-           {
-             //reiniciar nivel
-             //codigo de transicion del nivel
-             reuvicar el jugador a la salida ya existente y darle un nivel de carga
-             Quests.GenerateQuest(Currentlevel)
-           }
-         */
-    }
 }

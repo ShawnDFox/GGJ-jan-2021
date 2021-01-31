@@ -61,27 +61,31 @@ public class BotInventory : MonoBehaviour
                 cantidadActual=cantidadObjetosARecoger[indexTornillo].cantidadActual++;
                 OnItemPickup(collision.tag, cantidadObjetosARecoger[indexTornillo].cantidadActual++,cantidadObjetosARecoger[indexTornillo].cantidadARecoger);
                 ConfirmarSiTerminoLaTarea(indexTornillo);
+                collision.gameObject.SetActive(false);
                 break;
             case "Cable":
                 int indexCable=GetPositionTypeOfAmountObject(TipoDeObjetoARecoger.Cable);
                 cantidadActual=cantidadObjetosARecoger[indexCable].cantidadActual++;
                 OnItemPickup(collision.tag, cantidadObjetosARecoger[indexCable].cantidadActual++,cantidadObjetosARecoger[indexCable].cantidadARecoger);
                 ConfirmarSiTerminoLaTarea(indexCable);
+                collision.gameObject.SetActive(false);
                 break;
             case "Chip":
                 int indexChip=GetPositionTypeOfAmountObject(TipoDeObjetoARecoger.Chip);
                 cantidadActual=cantidadObjetosARecoger[indexChip].cantidadActual++;
                 OnItemPickup(collision.tag, cantidadObjetosARecoger[indexChip].cantidadActual++,cantidadObjetosARecoger[indexChip].cantidadARecoger);
                 ConfirmarSiTerminoLaTarea(indexChip);
+                collision.gameObject.SetActive(false);
                 break;
             case "Resistencia":
                 int indexResistencia=GetPositionTypeOfAmountObject(TipoDeObjetoARecoger.Resistencia);
                 cantidadActual=cantidadObjetosARecoger[indexResistencia].cantidadActual++;
                 OnItemPickup(collision.tag, cantidadObjetosARecoger[indexResistencia].cantidadActual++,cantidadObjetosARecoger[indexResistencia].cantidadARecoger);
                 ConfirmarSiTerminoLaTarea(indexResistencia);
+                collision.gameObject.SetActive(false);
                 break;
         }
-        collision.gameObject.SetActive(false);
+        
     }
     private void ConfirmarSiTerminoLaTarea(int index){
         if(cantidadObjetosARecoger[index].cantidadActual>=cantidadObjetosARecoger[index].cantidadARecoger){

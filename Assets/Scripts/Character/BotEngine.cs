@@ -9,7 +9,7 @@ public class BotEngine : MonoBehaviour
     [SerializeField]
     private int Velocidad_max;
     public int Velocidad;
-
+    
     private BotHealth Health;
     private Animator anims;
 
@@ -19,7 +19,7 @@ public class BotEngine : MonoBehaviour
     {
         Health = GetComponent<BotHealth>();
         GetComponent<CharacterInputs>().OnMove += Move;
-        anims = GetComponent<Animator>();
+        anims = GetComponentInChildren<Animator>();
         //GetComponent<CharacterInputs>().OnInteract += Interact;
     }
 
@@ -63,7 +63,9 @@ public class BotEngine : MonoBehaviour
         Health.Carga -= 0.025f;
         
         Vector3 movement = new Vector3(Hor, vert, 0);
+        
         transform.Translate(movement * Time.deltaTime * Velocidad);
+        
     }
 
     public void flip()

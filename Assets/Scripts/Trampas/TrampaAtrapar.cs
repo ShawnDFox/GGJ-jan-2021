@@ -24,12 +24,21 @@ public class TrampaAtrapar : MonoBehaviour
     private int counter=0;
     private int originalSpeed;
 
-    private void Awake()
+    private void OnEnable()
     {
-        interfazBoton = GameObject.Find("Trampa Atrapar").gameObject;
-        circuloRecarga = interfazBoton.transform.Find("Linea Recarga").GetComponent<Image>();
+        try
+        {
+            //interfazBoton = transform.FindChild("Trampa Atrapar").gameObject;
+            interfazBoton = GameObject.Find("Trampa Atrapar").gameObject;
+            circuloRecarga = interfazBoton.transform.Find("Linea Recarga").GetComponent<Image>();
 
-        interfazBoton.SetActive(false);
+            interfazBoton.SetActive(false);
+        }
+        catch (System.Exception e)
+        {
+            Debug.Log(e);
+        }
+        
 
     }
 
