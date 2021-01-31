@@ -8,6 +8,13 @@ TagManager:
   - Resistencia
   - Cable
   - Chip
+  - AnclaTrampa
+  - AnclaObjetoRecogible
+  - AnclaCargador
+  - TrampaDescargar
+  - TrampaAtrapar
+  - TrampaGolpe
+  - PuntoDeAyuda
   layers:
   - Default
   - TransparentFX

@@ -9,18 +9,21 @@ public class BotUiController : MonoBehaviour
 {
     public SliderController HP;
     public SliderController Charge;
-
+    [Header("")]
     public TextMeshProUGUI Tornillos;
     public TextMeshProUGUI Cables;
     public TextMeshProUGUI Chips;
-
+    public TextMeshProUGUI Resistencias;
+    [Header("")]
     public Image Tornillo;
     public Image Cable;
     public Image Chip;
-
+    public Image Resistencia;
+    [Header("")]
     public Sprite TornilloColor;
     public Sprite CableColor;
     public Sprite ChipColor;
+    public Sprite ResistenciaColor;
 
     private void Awake()
     {
@@ -32,7 +35,6 @@ public class BotUiController : MonoBehaviour
         botHeatlh.OnHeal += HealthCount;
         botHeatlh.OnTakeDamage += HealthCount;
         GetComponent<BotInventory>().OnItemPickup += PickUp;
-
     }
 
     
@@ -61,6 +63,12 @@ public class BotUiController : MonoBehaviour
                     Chip.sprite = ChipColor;
                 }
                 break;
+            case "Resistencia":
+                Resistencias.text=$"{arg2}/{arg3}";
+                if (arg2 > 0)
+                {
+                    Resistencia.sprite = ResistenciaColor;
+                }break;
         }
     }
 
