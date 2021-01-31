@@ -5583,13 +5583,30 @@ GameObject:
   m_Component:
   - component: {fileID: 661269438}
   - component: {fileID: 661269441}
+  - component: {fileID: 661269439}
+  - component: {fileID: 661269437}
   m_Layer: 0
-  m_Name: ManagerObjetos
+  m_Name: QuestManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &661269437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661269436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b2fd96406ebcca479269dcf402a94ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tareaCompletada: 0
+  nivelDeDificultad: 0
+  objetoASpawnear: []
 --- !u!4 &661269438
 Transform:
   m_ObjectHideFlags: 0
@@ -5602,8 +5619,30 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &661269439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 661269436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15ea5e15e0292064aabbd2283ebc1192, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TornilloPrefab: {fileID: 7592840940970359009, guid: 80cfaf24f878e984f977db3a7441265c,
+    type: 3}
+  CablePrefab: {fileID: 4022009582656633480, guid: 22200b5e88af5404d91b787c66c55ee3,
+    type: 3}
+  ChipPrefab: {fileID: 1363233748543011037, guid: 4b57350793d326e49be08191b035a265,
+    type: 3}
+  TrapPoints: []
+  DropPoints:
+  - {fileID: 0}
+  HelpPoints: []
 --- !u!114 &661269441
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6005,7 +6044,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1228367341
 GameObject:
@@ -6398,8 +6437,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb645b52c152018499a366d91ef1ae32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Horizontal: 0
-  Vertical: 0
   Interact: 0
 --- !u!114 &1582066317
 MonoBehaviour:
