@@ -1,0 +1,764 @@
+fileFormatVersion: 2
+guid: 30f57a0ccb58df44ca4ce9f73913dc68
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8575079889751730338
+    second: cosas mapa_0
+  - first:
+      213: -6844586830331149266
+    second: cosas mapa_1
+  - first:
+      213: 8439170136240173280
+    second: cosas mapa_2
+  - first:
+      213: -2366289503802319566
+    second: cosas mapa_3
+  - first:
+      213: 4251432327392248811
+    second: cosas mapa_4
+  - first:
+      213: 1949921969061987598
+    second: cosas mapa_5
+  - first:
+      213: -9145583656711802092
+    second: cosas mapa_6
+  - first:
+      213: 5772194473656911422
+    second: cosas mapa_7
+  - first:
+      213: 6259696170275674006
+    second: cosas mapa_8
+  - first:
+      213: -4190238840178498251
+    second: cosas mapa_9
+  - first:
+      213: 2582506559109068732
+    second: cosas mapa_10
+  - first:
+      213: -2535295322267106725
+    second: cosas mapa_11
+  - first:
+      213: 1249735035621984633
+    second: cosas mapa_12
+  - first:
+      213: 1766725374119188298
+    second: cosas mapa_13
+  - first:
+      213: -1058401124069297956
+    second: cosas mapa_14
+  - first:
+      213: -5046621085116469008
+    second: cosas mapa_15
+  - first:
+      213: 3375416375474330536
+    second: cosas mapa_16
+  - first:
+      213: 6199640380093118991
+    second: cosas mapa_17
+  - first:
+      213: -2170345751667228875
+    second: cosas mapa_18
+  - first:
+      213: -2351050890571520047
+    second: cosas mapa_19
+  - first:
+      213: -5447669069328738963
+    second: cosas mapa_20
+  - first:
+      213: 8527515261599031991
+    second: cosas mapa_21
+  - first:
+      213: -4371071135127398232
+    second: cosas mapa_22
+  - first:
+      213: 7648729412485909442
+    second: cosas mapa_23
+  - first:
+      213: -4141482822745791096
+    second: cosas mapa_24
+  - first:
+      213: -8816862343469368747
+    second: cosas mapa_25
+  - first:
+      213: 7209301022242989396
+    second: cosas mapa_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cosas mapa_0
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 1044
+        width: 534
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a86f3d1abdc00770800000000000000
+      internalID: 8575079889751730338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 712
+        width: 38
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e248bcfba842301a0800000000000000
+      internalID: -6844586830331149266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 630
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e03ea9b684fd1570800000000000000
+      internalID: 8439170136240173280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_3
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 598
+        width: 74
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d9022cb30492fd0800000000000000
+      internalID: -2366289503802319566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 674
+        width: 147
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3c3dc3d2f100b30800000000000000
+      internalID: 4251432327392248811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_5
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 433
+        width: 144
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e058ba123b38f0b10800000000000000
+      internalID: 1949921969061987598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_6
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 403
+        width: 104
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413331e9e1c541180800000000000000
+      internalID: -9145583656711802092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_7
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 286
+        width: 112
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e360bc89a44fa1050800000000000000
+      internalID: 5772194473656911422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_8
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 433
+        width: 125
+        height: 185
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69797276088eed650800000000000000
+      internalID: 6259696170275674006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_9
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 204
+        width: 124
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535ad17c9f749d5c0800000000000000
+      internalID: -4190238840178498251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_10
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 151
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb7ffc56808e6d320800000000000000
+      internalID: 2582506559109068732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_11
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 57
+        width: 112
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b524f834652d0dcd0800000000000000
+      internalID: -2535295322267106725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_12
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 377
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979cb9db463f75110800000000000000
+      internalID: 1249735035621984633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_13
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 445
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a471b040e5ba48810800000000000000
+      internalID: 1766725374119188298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_14
+      rect:
+        serializedVersion: 2
+        x: 1247
+        y: 445
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0b9f909cdcf41f0800000000000000
+      internalID: -1058401124069297956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_15
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0f2a97cdcc6f9b0800000000000000
+      internalID: -5046621085116469008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_16
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 435
+        width: 73
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab1f2d4f43e7de20800000000000000
+      internalID: 3375416375474330536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_17
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 381
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a3e9e141c890650800000000000000
+      internalID: 6199640380093118991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_18
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 830
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fb810b90261e1e0800000000000000
+      internalID: -2170345751667228875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_19
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 664
+        width: 183
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d76e92eba36f5fd0800000000000000
+      internalID: -2351050890571520047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_20
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 477
+        width: 41
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6517cc28ddf564b0800000000000000
+      internalID: -5447669069328738963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_21
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 447
+        width: 38
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2255023f1d75670800000000000000
+      internalID: 8527515261599031991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_22
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 476
+        width: 36
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a894c626f5d653c0800000000000000
+      internalID: -4371071135127398232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_23
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 416
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb0e4e30eeb52a60800000000000000
+      internalID: 7648729412485909442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_24
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 885ead2b05f7686c0800000000000000
+      internalID: -4141482822745791096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_25
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 480
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a7dff896634a580800000000000000
+      internalID: -8816862343469368747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_26
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 827
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45567ad45159c0460800000000000000
+      internalID: 7209301022242989396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
