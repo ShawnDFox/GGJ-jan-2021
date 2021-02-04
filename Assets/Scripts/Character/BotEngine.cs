@@ -79,6 +79,7 @@ public class BotEngine : MonoBehaviour
 
     public void ChangeSpeed(int amount){
         Velocidad=amount;
+        Debug.Log("Velocidad cambiada: "+amount);
     }
    
     /*private void OnTriggerStay2D(Collider2D collision)

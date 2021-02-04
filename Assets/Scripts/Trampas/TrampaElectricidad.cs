@@ -12,24 +12,15 @@ public class TrampaElectricidad : MonoBehaviour
 
     private void Start() {
         GetComponent<DetectorPlayer>().JugadorEntro += activateTrap;
-        /*
-            BajarBateria=FindObjectOfType<BotHealth>().Charge;
-            DetectorPlayer detectorPlayer=GetComponent<DetectorPlayer>();
-            detectorPlayer.JugadorEntro= ()=> {if(particle.isPlaying && !particle.isStopped)BajarBateria(cantidadABajar);};
-            particle.Stop();
-            StartCoroutine(ActivarElectricidad());
-         */
+        StartCoroutine(ActivarElectricidad());
     }
 
     void activateTrap(GameObject obj)
     {
-        
         if (particle.isPlaying && !particle.isStopped)
         {
             obj.GetComponent<BotHealth>().DisCharge(cantidadABajar);
         }
-        particle.Stop();
-        StartCoroutine(ActivarElectricidad());
     }
 
     private IEnumerator ActivarElectricidad()
