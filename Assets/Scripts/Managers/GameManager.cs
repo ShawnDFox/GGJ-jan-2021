@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     
     //public TrapManager ;
     //Public questGiver;
-
+    [SerializeField]
     int Currentlevel=1;
     bool CanMove;
     bool IsPlaying;
@@ -34,40 +34,67 @@ public class GameManager : MonoBehaviour
         }
         #endregion
 
+
         questmanager = GetComponent<QuestController>();
         questmanager.TerminarNivel += nextlevel;
-        player.GetComponent<BotHealth>().OnPlayerLose += RestartLevel;
+        player.GetComponent<BotHealth>().OnPlayerLose += PlayerNoControl;
         PlayerstartPos = player.transform;
+        player.GetComponent<CharacterInputs>().OnInteract += restart;
     }
 
-    private void RestartLevel()
+    private void restart()
     {
+        if (!CanMove)
+        {
+            StartCoroutine(RestartIEnum());
+        }
+
+    }
+
+    private void PlayerNoControl()
+    {
+        CanMove = false;
+        player.GetComponent<BotEngine>().CanMove = CanMove;
+        player.GetComponent<BotHealth>().CanMove = CanMove;
+        
         //reiniciar nivel
         //codigo de transicion del nivel
         //reuvicar al jugador
-        player.transform.position = new Vector3( PlayerstartPos.position.x,PlayerstartPos.position.y,PlayerstartPos.position.z);
 
+        
+    }
+    public IEnumerator RestartIEnum()
+    {
+        player.SetActive(false);
+        
+        yield return new WaitForSeconds(1);
+        player.transform.position = new Vector2(PlayerstartPos.position.x, PlayerstartPos.position.y);
+
+        player.GetComponent<BotHealth>().Carga = player.GetComponent<BotHealth>().Carga_max;
+        player.SetActive(true);
         questmanager.GenerateQuest(Currentlevel);
+        startlevel();
+        yield return null;
+        yield break;
+    }
+
+
+    void startlevel()
+    {
+        CanMove = true;
+        player.GetComponent<BotEngine>().CanMove = CanMove;
+        player.GetComponent<BotHealth>().CanMove = CanMove;
+        
     }
 
     private void nextlevel(GameObject obj)
     {
+        PlayerNoControl();
 
         Currentlevel++;
-        player.transform.position = new Vector3(PlayerstartPos.position.x, PlayerstartPos.position.y, PlayerstartPos.position.z);
-        questmanager.GenerateQuest(Currentlevel);
 
+        restart();
 
-        /* 
-               
-
-               //codigo de transicion del nivel
-
-               if (currentlevel % 5=0)//cada 5 niveles
-               {
-                 Dar mejora al jugador
-               }
-         */
     }
 
    
@@ -86,13 +113,14 @@ public class GameManager : MonoBehaviour
               relocate object in scene randomizer code posiblemente parte de questController
 
               relocate player to the new spawn point and give a charge level
-              
-
          */
         //Quests.GenerateQuest(Currentlevel);//Give first quest
         player.SetActive(true);
-        questmanager.GenerateQuest(Currentlevel);//posiblemente dentro de coorutina
         
+        questmanager.GenerateQuest(Currentlevel);//posiblemente dentro de coorutina
+
+        startlevel();
+
     }
 
 }

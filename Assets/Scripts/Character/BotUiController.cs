@@ -35,8 +35,9 @@ public class BotUiController : MonoBehaviour
         botHeatlh.OnHeal += HealthCount;
         botHeatlh.OnTakeDamage += HealthCount;
         GetComponent<BotInventory>().OnItemPickup += PickUp;
+        
     }
-
+    //mejorar para poder poner los items a recojer aparte del evento de recojerlos
     
     private void PickUp(string arg1, int arg2, int arg3)
     {

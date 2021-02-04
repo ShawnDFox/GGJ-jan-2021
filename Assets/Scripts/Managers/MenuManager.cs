@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
+    private SoundManager Sound;
 
     public GameObject Menu;
     public GameObject Pause;
@@ -15,7 +16,7 @@ public class MenuManager : MonoBehaviour
 
     private void Awake()
     {
-        
+        Sound = GetComponent<SoundManager>();
         
     }
 
@@ -44,6 +45,7 @@ public class MenuManager : MonoBehaviour
         Win.SetActive(false);
         Lose.SetActive(false);
         GameUI.SetActive(true);
+        Sound.Level.TransitionTo(0.5f);
         GameManager.Instance.FirstLevel();
         FindObjectOfType<BotHealth>().OnPlayerLose += LooseHandler;
     }
@@ -55,6 +57,7 @@ public class MenuManager : MonoBehaviour
         Win.SetActive(false);
         Lose.SetActive(false);
         GameUI.SetActive(false);
+        Sound.Menu.TransitionTo(1.5f);
     }
 
     public void ToogleCredits()

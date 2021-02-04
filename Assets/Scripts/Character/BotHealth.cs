@@ -17,6 +17,8 @@ public class BotHealth : MonoBehaviour
     public int Defensa;
     
     public bool Infrarojo;
+    public bool CanMove;
+
 
     public event Action<int> SetHP;
     public event Action<int> SetPower;
@@ -32,10 +34,11 @@ public class BotHealth : MonoBehaviour
         SetPower(Carga_max);
         Salud = Salud_max;
         Carga = Carga_max;
-        
+        CanMove = false;
         OnHeal(Salud);
         OnCharge(Carga);
         //OnplayerSlow += SlowCalc; subscripcion para metodos que alenticen al jugador
+
     }
 
     
@@ -72,7 +75,7 @@ public class BotHealth : MonoBehaviour
         {
             OnPlayerLose?.Invoke();
         }
-        if (Carga > 0)
+        if (Carga > 0 && CanMove)
         {
             Carga -= 0.005f;
             OnDisCharge(Carga);

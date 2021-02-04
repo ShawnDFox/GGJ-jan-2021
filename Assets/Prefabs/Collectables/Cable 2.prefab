@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2058845237806453453}
   - component: {fileID: 7797314681959929903}
   m_Layer: 0
-  m_Name: atlas_22
+  m_Name: Cable 2
   m_TagString: Cable
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058845237806453452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.646, y: -0.167, z: 0}
+  m_LocalPosition: {x: -1.646, y: -0.167, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -70,7 +70,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 237255737888612096, guid: 578a1ec06c5813847ac979458309a048, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
