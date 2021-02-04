@@ -87,6 +87,7 @@ public class BotEngine : MonoBehaviour
 
     public void ChangeSpeed(int amount){
         Velocidad=amount;
+        Debug.Log("Velocidad cambiada: "+amount);
     }
 
 

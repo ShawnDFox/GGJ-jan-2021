@@ -9,9 +9,9 @@ public class CharacterInputs : MonoBehaviour
     private float Horizontal;
     [SerializeField]
     private float Vertical;
-    public bool Interact;
+    public bool trapped;
 
-    public event Action OnInteract=delegate { };
+    public event Action<string> Liberarse;
     public event Action<float,float> OnMove;
     //public event Action SalirTrampa;
     public event Action PauseGame;
@@ -27,12 +27,20 @@ public class CharacterInputs : MonoBehaviour
             OnMove(Horizontal,Vertical);
         }
 
-        Interact = Input.GetButtonDown("Interact");
-        if (Interact)
+        //Liberarse Trampa
+        if (trapped)
         {
-            OnInteract();
+            //Izquierda
+            if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow))
+            {
+                Liberarse?.Invoke("Left");
+            }
+            else if (Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+            {
+                Liberarse?.Invoke("Right");
+            }
         }
-
+        
         //Pausar o despausar juego
         if(Input.GetButtonDown("Pause")){
             PauseGame?.Invoke();

@@ -12,6 +12,7 @@ public class DetectorPlayer : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.gameObject.tag == "Player")
         {
+            Debug.Log("Collider Dentro");
             JugadorEntro?.Invoke(other.gameObject);
             
         }
@@ -23,6 +24,7 @@ public class DetectorPlayer : MonoBehaviour
     }
     private void OnTriggerExit2D(Collider2D other) {
         if(other.gameObject.tag=="Player"){
+            Debug.Log("Collider Afuera");
             JugadorSalio?.Invoke(other.gameObject);
         }
     }

@@ -15,6 +15,7 @@ TagManager:
   - TrampaAtrapar
   - TrampaGolpe
   - PuntoDeAyuda
+  - UITrampaAtrapar
   layers:
   - Default
   - TransparentFX

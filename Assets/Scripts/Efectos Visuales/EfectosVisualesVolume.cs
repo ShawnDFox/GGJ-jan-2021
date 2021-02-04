@@ -12,9 +12,6 @@ public class EfectosVisualesVolume : MonoBehaviour
     private float currentValueVignette;
     private float speed;
     private bool isRepeating;
-    //Guardar valores originales
-    private ColorParameter originalColorVignette;
-    private float originalIntesity;
     private Vignette vignette;
     // Start is called before the first frame update
     void Start()
@@ -22,21 +19,16 @@ public class EfectosVisualesVolume : MonoBehaviour
         VolumeProfile volumeProfile=GetComponent<Volume>().profile;
         if(!volumeProfile.TryGet(out vignette)) throw new System.NullReferenceException(nameof(vignette));
     }
-    public void EfectoViñeta(float duracionTotal=0){
+    public void EfectoViñeta(float duracionTotal){
         if(duracionTotal==0){
-            Debug.Log("Parar");
             VolverValorOriginal();
             StopAllCoroutines();
         }
         else{
             currentValueVignette=0;
             durationVignette=duracionTotal;
-
-            originalColorVignette=vignette.color;
-            originalIntesity=vignette.intensity.value;
-
             vignette.color.Override(colorEfectoViñeta);
-
+            isRepeating=true;
             StartCoroutine(ConfigurarViñeta());            
         }
 
@@ -47,12 +39,12 @@ public class EfectosVisualesVolume : MonoBehaviour
         for (int i = 0; i < 3; i++)
         {
             yield return new WaitForSeconds(tiempoDividido);
-            Debug.Log("Ejecutandose");
             //Pause
             if(Time.timeScale==0){
                 currentValueVignette=vignette.intensity.value;
                 VolverValorOriginal();
                 isRepeating=false;
+                i++;
                 i--;
             }
             //Normal Game
@@ -67,7 +59,9 @@ public class EfectosVisualesVolume : MonoBehaviour
         VolverValorOriginal();
     }
     private void VolverValorOriginal(){
-        vignette.color.Override(originalColorVignette.value);
-        vignette.intensity.Override(originalIntesity);
+        vignette.color.Override(Color.black);
+        vignette.intensity.Override(0);
+        durationVignette=0;
+        speed=0;
     }
 }
