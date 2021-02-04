@@ -39,7 +39,8 @@ public class GameManager : MonoBehaviour
         questmanager.TerminarNivel += nextlevel;
         player.GetComponent<BotHealth>().OnPlayerLose += PlayerNoControl;
         PlayerstartPos = player.transform;
-        player.GetComponent<CharacterInputs>().OnInteract += restart;
+        //player.GetComponent<CharacterInputs>().OnInteract += restart;//necesito boton o control para reiniciar
+
     }
 
     private void restart()
