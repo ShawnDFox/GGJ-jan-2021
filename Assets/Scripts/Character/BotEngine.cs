@@ -23,6 +23,7 @@ public class BotEngine : MonoBehaviour
         Health = GetComponent<BotHealth>();
         GetComponent<CharacterInputs>().OnMove += Move;
         anims = GetComponentInChildren<Animator>();
+        
         //GetComponent<CharacterInputs>().OnInteract += Interact;
         CanMove = false;
     }
@@ -32,7 +33,6 @@ public class BotEngine : MonoBehaviour
     {
         if (CanMove)
         {
-        
             //ultimo vertical
             float LastHor=0;
             float LastVert=0;
@@ -67,7 +67,7 @@ public class BotEngine : MonoBehaviour
                 LastVert = vert;
             }
         
-            Health.Carga -= 0.025f;
+            Health.DisCharge(0.025f);
         
             Vector3 movement = new Vector3(Hor, vert, 0);
         

@@ -26,7 +26,11 @@ public class BotHealth : MonoBehaviour
     public event Action<float> OnDisCharge;
     public event Action<float> OnTakeDamage;
     public event Action<float> OnHeal;
-    public event Action OnPlayerLose;
+
+    public event Action OnPlayerDischarge;
+    public event Action OnPlayerTotalDamage;
+    public event Action OnEnablePlayer = delegate { };
+
 
     private void OnEnable()
     {
@@ -37,6 +41,7 @@ public class BotHealth : MonoBehaviour
         CanMove = false;
         OnHeal(Salud);
         OnCharge(Carga);
+        OnEnablePlayer();
         //OnplayerSlow += SlowCalc; subscripcion para metodos que alenticen al jugador
 
     }
@@ -63,7 +68,7 @@ public class BotHealth : MonoBehaviour
         OnCharge(Carga);
     }
 
-    public void DisCharge(int amount)
+    public void DisCharge(float amount)
     {
         Carga -= amount;
         OnDisCharge(Carga);
@@ -71,14 +76,17 @@ public class BotHealth : MonoBehaviour
 
     private void Update()
     {
-        if (Carga <= 0 || Salud <= 0)
+        if (Carga <= 0)
         {
-            OnPlayerLose?.Invoke();
+            OnPlayerDischarge?.Invoke();
+        }
+        if (Salud <= 0)
+        {
+            OnPlayerTotalDamage?.Invoke();
         }
         if (Carga > 0 && CanMove)
         {
-            Carga -= 0.005f;
-            OnDisCharge(Carga);
+            DisCharge(0.005f);
         }
 
     }

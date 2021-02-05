@@ -10,6 +10,7 @@ public class GameManager : MonoBehaviour
     public QuestController Quests;
 
     public GameObject player;
+    [SerializeField]
     Transform PlayerstartPos;
     
     
@@ -18,7 +19,9 @@ public class GameManager : MonoBehaviour
     [SerializeField]
     int Currentlevel=1;
     bool CanMove;
+    bool CanPause;
     bool IsPlaying;
+
 
     private QuestController questmanager;
 
@@ -34,16 +37,47 @@ public class GameManager : MonoBehaviour
         }
         #endregion
 
-
         questmanager = GetComponent<QuestController>();
-        questmanager.TerminarNivel += nextlevel;
-        player.GetComponent<BotHealth>().OnPlayerLose += PlayerNoControl;
-        PlayerstartPos = player.transform;
-        //player.GetComponent<CharacterInputs>().OnInteract += restart;//necesito boton o control para reiniciar
+        questmanager.TerminarNivel += Complete;
+        player.GetComponent<BotHealth>().OnPlayerDischarge += PlayerLose;
+        player.GetComponent<BotHealth>().OnPlayerTotalDamage += PlayerLose;
+        //PlayerstartPos = player.transform.position;
+        player.GetComponent<CharacterInputs>().PauseGame += Pause;//necesito boton o control para reiniciar
 
     }
 
-    private void restart()
+    private void PlayerLose()
+    {
+        PlayerNoControl();
+        CanPause = false;
+    }
+
+    private void Complete(GameObject obj)
+    {
+        PlayerNoControl();
+        CanPause = false;
+    }
+
+    private void Pause()
+    {
+        if (CanPause)
+        {
+            if (Time.timeScale == 1)
+            {
+                PlayerNoControl();
+                Time.timeScale = 0;
+
+            }
+            else
+            {
+                startlevel();
+                Time.timeScale = 1;
+
+            }
+        }
+    }
+
+    public void restart()
     {
         if (!CanMove)
         {
@@ -51,18 +85,24 @@ public class GameManager : MonoBehaviour
         }
 
     }
+    void startlevel()
+    {
+        CanMove = true;
+        
+        player.GetComponent<BotEngine>().CanMove = CanMove;
+        player.GetComponent<BotHealth>().CanMove = CanMove;
 
+    }
     private void PlayerNoControl()
     {
         CanMove = false;
+
         player.GetComponent<BotEngine>().CanMove = CanMove;
         player.GetComponent<BotHealth>().CanMove = CanMove;
         
         //reiniciar nivel
         //codigo de transicion del nivel
         //reuvicar al jugador
-
-        
     }
     public IEnumerator RestartIEnum()
     {
@@ -75,27 +115,15 @@ public class GameManager : MonoBehaviour
         player.SetActive(true);
         questmanager.GenerateQuest(Currentlevel);
         startlevel();
+        CanPause = true;
         yield return null;
         yield break;
     }
 
-
-    void startlevel()
+    public void nextlevel()
     {
-        CanMove = true;
-        player.GetComponent<BotEngine>().CanMove = CanMove;
-        player.GetComponent<BotHealth>().CanMove = CanMove;
-        
-    }
-
-    private void nextlevel(GameObject obj)
-    {
-        PlayerNoControl();
-
         Currentlevel++;
-
         restart();
-
     }
 
    
@@ -116,12 +144,20 @@ public class GameManager : MonoBehaviour
               relocate player to the new spawn point and give a charge level
          */
         //Quests.GenerateQuest(Currentlevel);//Give first quest
+        player.transform.position = new Vector2(PlayerstartPos.position.x, PlayerstartPos.position.y);
         player.SetActive(true);
         
         questmanager.GenerateQuest(Currentlevel);//posiblemente dentro de coorutina
 
         startlevel();
+        CanPause = true;
 
     }
 
+    public void quit()
+    {
+        PlayerNoControl();
+        player.SetActive(false);
+        Currentlevel = 1;
+    }
 }

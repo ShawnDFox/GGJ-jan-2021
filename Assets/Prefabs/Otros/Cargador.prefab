@@ -59,7 +59,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cantidadAcargar: 2
-  tiempoEspera: 0.5
+  tiempoEspera: 0.2
+  canCharge: 0
 --- !u!212 &3920173875713195601
 SpriteRenderer:
   m_ObjectHideFlags: 0

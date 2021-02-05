@@ -11,7 +11,7 @@ public class QuestController : MonoBehaviour
     public List<TipoDeObjetoASpawnear> objetosASpawnear=new List<TipoDeObjetoASpawnear>();
 
     //public List<Transform> PlayerSpawn;
-   
+   [SerializeField]
     private List<PointsOfSpawn> puntosDeSpawn=new List<PointsOfSpawn>(1);
 
     private int carry_capacity = 15;

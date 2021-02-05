@@ -83,6 +83,15 @@ TextureImporter:
   - first:
       213: 7209301022242989396
     second: cosas mapa_26
+  - first:
+      213: -984155306429410354
+    second: cosas mapa_27
+  - first:
+      213: -2476802771489801527
+    second: cosas mapa_28
+  - first:
+      213: -8959456633204253068
+    second: cosas mapa_29
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -207,12 +216,12 @@ TextureImporter:
       name: cosas mapa_0
       rect:
         serializedVersion: 2
-        x: 436
-        y: 1044
-        width: 534
-        height: 86
+        x: 450
+        y: 1056
+        width: 512
+        height: 59
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,12 +237,12 @@ TextureImporter:
       name: cosas mapa_1
       rect:
         serializedVersion: 2
-        x: 91
-        y: 712
-        width: 38
-        height: 44
+        x: 1024
+        y: 1042
+        width: 192
+        height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,12 +258,12 @@ TextureImporter:
       name: cosas mapa_2
       rect:
         serializedVersion: 2
-        x: 56
-        y: 630
-        width: 31
-        height: 50
+        x: 1292
+        y: 1057
+        width: 116
+        height: 81
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,12 +279,12 @@ TextureImporter:
       name: cosas mapa_3
       rect:
         serializedVersion: 2
-        x: 91
-        y: 598
-        width: 74
-        height: 46
+        x: 644
+        y: 953
+        width: 124
+        height: 25
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -288,36 +297,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cosas mapa_4
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 674
-        width: 147
-        height: 83
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: be3c3dc3d2f100b30800000000000000
-      internalID: 4251432327392248811
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: cosas mapa_5
       rect:
         serializedVersion: 2
-        x: 523
-        y: 433
-        width: 144
-        height: 153
+        x: 507
+        y: 928
+        width: 394
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -333,12 +321,12 @@ TextureImporter:
       name: cosas mapa_6
       rect:
         serializedVersion: 2
-        x: 725
-        y: 403
-        width: 104
-        height: 136
+        x: 522
+        y: 832
+        width: 21
+        height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -354,12 +342,12 @@ TextureImporter:
       name: cosas mapa_7
       rect:
         serializedVersion: 2
-        x: 437
-        y: 286
-        width: 112
-        height: 107
+        x: 864
+        y: 832
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -375,12 +363,12 @@ TextureImporter:
       name: cosas mapa_8
       rect:
         serializedVersion: 2
-        x: 880
-        y: 433
-        width: 125
-        height: 185
+        x: 1185
+        y: 836
+        width: 185
+        height: 89
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -396,12 +384,12 @@ TextureImporter:
       name: cosas mapa_9
       rect:
         serializedVersion: 2
-        x: 1105
-        y: 204
-        width: 124
-        height: 113
+        x: 623
+        y: 664
+        width: 160
+        height: 112
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -414,36 +402,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cosas mapa_10
-      rect:
-        serializedVersion: 2
-        x: 1048
-        y: 151
-        width: 52
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb7ffc56808e6d320800000000000000
-      internalID: 2582506559109068732
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: cosas mapa_11
       rect:
         serializedVersion: 2
-        x: 1165
-        y: 57
-        width: 112
-        height: 112
+        x: 99
+        y: 718
+        width: 26
+        height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -459,12 +426,12 @@ TextureImporter:
       name: cosas mapa_12
       rect:
         serializedVersion: 2
-        x: 1145
-        y: 377
-        width: 46
-        height: 43
+        x: 256
+        y: 686
+        width: 128
+        height: 66
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -480,12 +447,12 @@ TextureImporter:
       name: cosas mapa_13
       rect:
         serializedVersion: 2
-        x: 1179
-        y: 445
-        width: 42
-        height: 38
+        x: 64
+        y: 638
+        width: 17
+        height: 34
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -501,12 +468,12 @@ TextureImporter:
       name: cosas mapa_14
       rect:
         serializedVersion: 2
-        x: 1247
-        y: 445
-        width: 33
-        height: 36
+        x: 98
+        y: 609
+        width: 58
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -522,12 +489,12 @@ TextureImporter:
       name: cosas mapa_15
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 384
-        width: 32
-        height: 32
+        x: 551
+        y: 448
+        width: 96
+        height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -543,12 +510,12 @@ TextureImporter:
       name: cosas mapa_16
       rect:
         serializedVersion: 2
-        x: 1433
-        y: 435
-        width: 73
-        height: 59
+        x: 731
+        y: 416
+        width: 94
+        height: 116
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -564,12 +531,12 @@ TextureImporter:
       name: cosas mapa_17
       rect:
         serializedVersion: 2
-        x: 1372
-        y: 381
-        width: 39
-        height: 39
+        x: 894
+        y: 447
+        width: 98
+        height: 161
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -585,12 +552,12 @@ TextureImporter:
       name: cosas mapa_18
       rect:
         serializedVersion: 2
-        x: 518
-        y: 830
-        width: 30
-        height: 29
+        x: 1120
+        y: 480
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -606,12 +573,12 @@ TextureImporter:
       name: cosas mapa_19
       rect:
         serializedVersion: 2
-        x: 613
-        y: 664
-        width: 183
-        height: 122
+        x: 1248
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -627,12 +594,12 @@ TextureImporter:
       name: cosas mapa_20
       rect:
         serializedVersion: 2
-        x: 1118
-        y: 477
-        width: 41
-        height: 39
+        x: 1280
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -648,12 +615,12 @@ TextureImporter:
       name: cosas mapa_21
       rect:
         serializedVersion: 2
-        x: 1084
-        y: 447
-        width: 38
-        height: 34
+        x: 1440
+        y: 438
+        width: 62
+        height: 53
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -669,12 +636,12 @@ TextureImporter:
       name: cosas mapa_22
       rect:
         serializedVersion: 2
-        x: 1278
-        y: 476
-        width: 36
-        height: 41
+        x: 1088
+        y: 448
+        width: 32
+        height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -690,12 +657,12 @@ TextureImporter:
       name: cosas mapa_23
       rect:
         serializedVersion: 2
-        x: 1311
-        y: 416
-        width: 33
+        x: 1184
+        y: 448
+        width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -708,36 +675,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cosas mapa_24
-      rect:
-        serializedVersion: 2
-        x: 1344
-        y: 448
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 885ead2b05f7686c0800000000000000
-      internalID: -4141482822745791096
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: cosas mapa_25
       rect:
         serializedVersion: 2
-        x: 1376
-        y: 480
-        width: 32
-        height: 32
+        x: 456
+        y: 296
+        width: 82
+        height: 84
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -750,13 +696,34 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cosas mapa_26
+      name: cosas mapa_28
       rect:
         serializedVersion: 2
-        x: 860
-        y: 827
-        width: 40
-        height: 40
+        x: 1186
+        y: 67
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cab5a28001a0add0800000000000000
+      internalID: -2476802771489801527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cosas mapa_29
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 384
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -764,8 +731,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45567ad45159c0460800000000000000
-      internalID: 7209301022242989396
+      spriteID: 47ed75d49ad99a380800000000000000
+      internalID: -8959456633204253068
       vertices: []
       indices: 
       edges: []
