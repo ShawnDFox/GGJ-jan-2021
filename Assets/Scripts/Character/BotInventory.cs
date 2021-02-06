@@ -53,42 +53,36 @@ public class BotInventory : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        int cantidadActual=0;
+
         switch (collision.tag)
         {
             case "Tornillo":
-                int indexTornillo=GetPositionTypeOfAmountObject(TipoDeObjetoARecoger.Tornillo);
-                cantidadActual=cantidadObjetosARecoger[indexTornillo].cantidadActual++;
-                OnItemPickup(collision.tag, cantidadObjetosARecoger[indexTornillo].cantidadActual++,cantidadObjetosARecoger[indexTornillo].cantidadARecoger);
-                ConfirmarSiTerminoLaTarea(indexTornillo);
-                collision.gameObject.SetActive(false);
+                PickObject(TipoDeObjetoARecoger.Tornillo,collision.gameObject);
                 break;
             case "Cable":
-                int indexCable=GetPositionTypeOfAmountObject(TipoDeObjetoARecoger.Cable);
-                cantidadActual=cantidadObjetosARecoger[indexCable].cantidadActual++;
-                OnItemPickup(collision.tag, cantidadObjetosARecoger[indexCable].cantidadActual++,cantidadObjetosARecoger[indexCable].cantidadARecoger);
-                ConfirmarSiTerminoLaTarea(indexCable);
-                collision.gameObject.SetActive(false);
+                PickObject(TipoDeObjetoARecoger.Cable,collision.gameObject);
                 break;
             case "Chip":
-                int indexChip=GetPositionTypeOfAmountObject(TipoDeObjetoARecoger.Chip);
-                cantidadActual=cantidadObjetosARecoger[indexChip].cantidadActual++;
-                OnItemPickup(collision.tag, cantidadObjetosARecoger[indexChip].cantidadActual++,cantidadObjetosARecoger[indexChip].cantidadARecoger);
-                ConfirmarSiTerminoLaTarea(indexChip);
-                collision.gameObject.SetActive(false);
+                PickObject(TipoDeObjetoARecoger.Chip,collision.gameObject);
                 break;
             case "Resistencia":
-                int indexResistencia=GetPositionTypeOfAmountObject(TipoDeObjetoARecoger.Resistencia);
-                cantidadActual=cantidadObjetosARecoger[indexResistencia].cantidadActual++;
-                OnItemPickup(collision.tag, cantidadObjetosARecoger[indexResistencia].cantidadActual++,cantidadObjetosARecoger[indexResistencia].cantidadARecoger);
-                ConfirmarSiTerminoLaTarea(indexResistencia);
-                collision.gameObject.SetActive(false);
+                PickObject(TipoDeObjetoARecoger.Resistencia,collision.gameObject);
                 break;
         }
         
     }
+    private void PickObject(TipoDeObjetoARecoger tipoDeObjetoARecoger,GameObject colliderObject){
+        int index=GetPositionTypeOfAmountObject(tipoDeObjetoARecoger);
+        Debug.Log("Position: "+GetPositionTypeOfAmountObject(tipoDeObjetoARecoger));
+        cantidadObjetosARecoger[index].cantidadActual++;
+        Debug.Log(cantidadObjetosARecoger[index].cantidadActual);
+        OnItemPickup(colliderObject.tag, cantidadObjetosARecoger[index].cantidadActual,cantidadObjetosARecoger[index].cantidadARecoger);
+        ConfirmarSiTerminoLaTarea(index);
+        colliderObject.SetActive(false);
+    }
     private void ConfirmarSiTerminoLaTarea(int index){
         if(cantidadObjetosARecoger[index].cantidadActual>=cantidadObjetosARecoger[index].cantidadARecoger){
+            Debug.Log("Recoger");
             contadorTareasHechas++;
             if(contadorTareasHechas>=3) {
                 contadorTareasHechas=0;
