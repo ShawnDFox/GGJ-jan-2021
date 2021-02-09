@@ -52,7 +52,6 @@ public class TrampaAtrapar : MonoBehaviour
     private void trapped(GameObject obj)
     {
         if(!jugadorEntro) {
-            Debug.Log("Jugador Entro");
             jugadorEntro = true;
             ReproducirSonido(true);
             //obtiene los compoenentes del bot que vienen desde el delegado de detector players
