@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: BotMaterial
+  m_Name: Humaniode
   m_Shader: {fileID: -6465566751694194690, guid: 003bb93811517a74fa595625d40fe72f,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
@@ -25,7 +25,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Emission:
-        m_Texture: {fileID: 2800000, guid: b7f79a88ca7575c4b934a1b41c3daa4d, type: 3}
+        m_Texture: {fileID: 2800000, guid: 8187d5ceb712c8f4f99794bee8844c8e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -43,7 +43,7 @@ Material:
     m_Floats:
     - _EnableExternalAlpha: 0
     m_Colors:
-    - Color_B38E2655: {r: 0.40881476, g: 0.08176293, b: 1.5616723, a: 0}
+    - Color_B38E2655: {r: 0, g: 0.1792453, b: 0.15773584, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
