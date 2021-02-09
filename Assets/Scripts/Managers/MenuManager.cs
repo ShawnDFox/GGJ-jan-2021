@@ -5,8 +5,10 @@ using UnityEngine;
 
 public class MenuManager : MonoBehaviour
 {
+    [HideInInspector]public Language CurrentLanguage;
+    public Action ChangeLanguageToSpanish;
+    public Action ChangeLanguageToEnglish;
     private SoundManager Sound;
-
     public GameObject Menu;
     public GameObject Pause;
     public GameObject Win;
@@ -36,6 +38,18 @@ public class MenuManager : MonoBehaviour
         Win.SetActive(false);
         Discharge.SetActive(false);
         GameUI.SetActive(false);
+    }
+    public void ChangeLanguage(Language language){
+        CurrentLanguage=language;
+        switch (language)
+        {
+            case Language.Spanish:
+                ChangeLanguageToSpanish?.Invoke();
+            break;
+            case Language.English:
+                ChangeLanguageToEnglish?.Invoke();
+            break;
+        }
     }
 
     private void DischargeHandler()
@@ -122,5 +136,7 @@ public class MenuManager : MonoBehaviour
         }
     }
 
-    
+}
+public enum Language{
+    Spanish, English
 }
