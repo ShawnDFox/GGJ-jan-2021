@@ -5,7 +5,7 @@ public class LanguageImage : LanguageType
 {
 
     private Image image;
-    [TextArea(3,6)]
+    
     [SerializeField]private Sprite spanish,english;
     
     void Start()

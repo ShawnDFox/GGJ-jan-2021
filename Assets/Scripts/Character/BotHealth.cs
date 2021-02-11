@@ -38,6 +38,7 @@ public class BotHealth : MonoBehaviour
         SetPower(Carga_max);
         Salud = Salud_max;
         Carga = Carga_max;
+        
         CanMove = false;
         OnHeal(Salud);
         OnCharge(Carga);

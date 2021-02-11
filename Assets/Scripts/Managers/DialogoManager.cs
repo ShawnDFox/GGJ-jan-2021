@@ -16,6 +16,12 @@ public class DialogoManager : MonoBehaviour
     private int index=-1;
     private bool isRepeating=false;
     private bool change;
+    private void OnEnable()
+    {
+        index = -1;
+        isRepeating = false;
+    }
+
     private void Start() {
         menuManager=FindObjectOfType<MenuManager>();
         NextDialogue();

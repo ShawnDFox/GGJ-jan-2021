@@ -1,211 +1,457 @@
 fileFormatVersion: 2
-guid: 8187d5ceb712c8f4f99794bee8844c8e
+guid: 2b88362ef7f382842b229aced110e152
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 466719193294940907
-    second: cyberpunk tileset_0
+      213: -7782623961667468485
+    second: cyberpunk tileset bn_0
   - first:
-      213: 6303807787948865629
-    second: cyberpunk tileset_1
+      213: 4881048482293907855
+    second: cyberpunk tileset bn_1
   - first:
-      213: 4057168711059660968
-    second: cyberpunk tileset_2
+      213: -5939388095988864632
+    second: cyberpunk tileset bn_2
   - first:
-      213: 65726858361982379
-    second: cyberpunk tileset_3
+      213: -2118142078211854795
+    second: cyberpunk tileset bn_3
   - first:
-      213: -8175751632905057533
-    second: cyberpunk tileset_4
+      213: 5886745366387395011
+    second: cyberpunk tileset bn_4
   - first:
-      213: 3963624402360009505
-    second: cyberpunk tileset_5
+      213: -8394463011971226295
+    second: cyberpunk tileset bn_5
   - first:
-      213: -671491543275175166
-    second: cyberpunk tileset_6
+      213: -2565026099218132691
+    second: cyberpunk tileset bn_6
   - first:
-      213: 6442545242778179544
-    second: cyberpunk tileset_7
+      213: 7383743307137061177
+    second: cyberpunk tileset bn_7
   - first:
-      213: 6831978628046409776
-    second: cyberpunk tileset_8
+      213: 3943217272033403130
+    second: cyberpunk tileset bn_8
   - first:
-      213: -1162760192642493237
-    second: cyberpunk tileset_9
+      213: 4053838594417111450
+    second: cyberpunk tileset bn_9
   - first:
-      213: 479148327476568726
-    second: cyberpunk tileset_10
+      213: -2216528624404310897
+    second: cyberpunk tileset bn_10
   - first:
-      213: 3888627005098464414
-    second: cyberpunk tileset_11
+      213: 3071267377569657472
+    second: cyberpunk tileset bn_11
   - first:
-      213: 133437211730372540
-    second: cyberpunk tileset_12
+      213: 9082028342724606729
+    second: cyberpunk tileset bn_12
   - first:
-      213: 1271206940222951867
-    second: cyberpunk tileset_13
+      213: -2316846658022376452
+    second: cyberpunk tileset bn_13
   - first:
-      213: -855503193423834569
-    second: cyberpunk tileset_14
+      213: 6109687098142075123
+    second: cyberpunk tileset bn_14
   - first:
-      213: 6937860162396843919
-    second: cyberpunk tileset_15
+      213: -8534516881343226594
+    second: cyberpunk tileset bn_15
   - first:
-      213: -2906126725096801136
-    second: cyberpunk tileset_16
+      213: 8478192055103066036
+    second: cyberpunk tileset bn_16
   - first:
-      213: 4275642032764622794
-    second: cyberpunk tileset_17
+      213: 5589905983306667284
+    second: cyberpunk tileset bn_17
   - first:
-      213: -7094324603946077070
-    second: cyberpunk tileset_18
+      213: -258793422059393863
+    second: cyberpunk tileset bn_18
   - first:
-      213: 7719666780928282923
-    second: cyberpunk tileset_19
+      213: -8574938201376130344
+    second: cyberpunk tileset bn_19
   - first:
-      213: -6789011491583388536
-    second: cyberpunk tileset_20
+      213: 7353084142307652259
+    second: cyberpunk tileset bn_20
   - first:
-      213: -8765559898319342710
-    second: cyberpunk tileset_21
+      213: -7012157675385715599
+    second: cyberpunk tileset bn_21
   - first:
-      213: 1054071087876253989
-    second: cyberpunk tileset_22
+      213: -8981532976703716454
+    second: cyberpunk tileset bn_22
   - first:
-      213: -4412360328899023546
-    second: cyberpunk tileset_23
+      213: -4948532318125819069
+    second: cyberpunk tileset bn_23
   - first:
-      213: -4074320630862807465
-    second: cyberpunk tileset_24
+      213: -5532814219917841998
+    second: cyberpunk tileset bn_24
   - first:
-      213: -9161956567827943097
-    second: cyberpunk tileset_25
+      213: -5123407848926274938
+    second: cyberpunk tileset bn_25
   - first:
-      213: 3640694464090721956
-    second: cyberpunk tileset_26
+      213: -2442794802936256552
+    second: cyberpunk tileset bn_26
   - first:
-      213: -7350827467108131966
-    second: cyberpunk tileset_27
+      213: -5092469294662415907
+    second: cyberpunk tileset bn_27
   - first:
-      213: 995315216576342707
-    second: cyberpunk tileset_28
+      213: 6219033688164972584
+    second: cyberpunk tileset bn_28
   - first:
-      213: -6936457832760332261
-    second: cyberpunk tileset_29
+      213: 1355484150144518090
+    second: cyberpunk tileset bn_29
   - first:
-      213: -8570523739105693382
-    second: cyberpunk tileset_30
+      213: 7286386835484586655
+    second: cyberpunk tileset bn_30
   - first:
-      213: 2926952012923829601
-    second: cyberpunk tileset_31
+      213: -1247738807255062433
+    second: cyberpunk tileset bn_31
   - first:
-      213: -2316531130019443289
-    second: cyberpunk tileset_32
+      213: -8643460463884543331
+    second: cyberpunk tileset bn_32
   - first:
-      213: 1722511632600292781
-    second: cyberpunk tileset_33
+      213: -8895127764445501295
+    second: cyberpunk tileset bn_33
   - first:
-      213: 6959966406764323633
-    second: cyberpunk tileset_34
+      213: -1214482740679916702
+    second: cyberpunk tileset bn_34
   - first:
-      213: -5128198221527579050
-    second: cyberpunk tileset_35
+      213: 6028546106272385957
+    second: cyberpunk tileset bn_35
   - first:
-      213: -9032170081398285293
-    second: cyberpunk tileset_36
+      213: 7699424069406870440
+    second: cyberpunk tileset bn_36
   - first:
-      213: -3739785818162208949
-    second: cyberpunk tileset_37
+      213: 8731261337876802293
+    second: cyberpunk tileset bn_37
   - first:
-      213: -3862587418438109869
-    second: cyberpunk tileset_38
+      213: -3977726831909771163
+    second: cyberpunk tileset bn_38
   - first:
-      213: -9196824230006938605
-    second: cyberpunk tileset_39
+      213: -7530224639327405013
+    second: cyberpunk tileset bn_39
   - first:
-      213: -4198896715023487070
-    second: cyberpunk tileset_40
+      213: -659338890016959162
+    second: cyberpunk tileset bn_40
   - first:
-      213: 638761418732232742
-    second: cyberpunk tileset_41
+      213: -2336113709743102234
+    second: cyberpunk tileset bn_41
   - first:
-      213: 1901963695286262827
-    second: cyberpunk tileset_42
+      213: 200517459229620921
+    second: cyberpunk tileset bn_42
   - first:
-      213: -2574390155821898551
-    second: cyberpunk tileset_43
+      213: -5195938028298744800
+    second: cyberpunk tileset bn_43
   - first:
-      213: 395774758712119886
-    second: cyberpunk tileset_44
+      213: 744831233680553017
+    second: cyberpunk tileset bn_44
   - first:
-      213: 5143300290762103927
-    second: cyberpunk tileset_45
+      213: -3842949124382797218
+    second: cyberpunk tileset bn_45
   - first:
-      213: -2783375811026281193
-    second: cyberpunk tileset_46
+      213: 4518678637310484684
+    second: cyberpunk tileset bn_46
   - first:
-      213: -5877607772612266776
-    second: cyberpunk tileset_47
+      213: -2874852792229718512
+    second: cyberpunk tileset bn_47
   - first:
-      213: -4203793477687985163
-    second: cyberpunk tileset_48
+      213: -5993545907945405014
+    second: cyberpunk tileset bn_48
   - first:
-      213: -3940666819034705533
-    second: cyberpunk tileset_49
+      213: 8363803797844260997
+    second: cyberpunk tileset bn_49
   - first:
-      213: 8454371387739391178
-    second: cyberpunk tileset_50
+      213: 6703720708596323911
+    second: cyberpunk tileset bn_50
   - first:
-      213: -1613208434580928068
-    second: cyberpunk tileset_51
+      213: 5586789960059291102
+    second: cyberpunk tileset bn_51
   - first:
-      213: 1569891013603610151
-    second: cyberpunk tileset_52
+      213: 4175022310132312089
+    second: cyberpunk tileset bn_52
   - first:
-      213: 9200115989053396749
-    second: cyberpunk tileset_53
+      213: 4433590018572022501
+    second: cyberpunk tileset bn_53
   - first:
-      213: 8648368084534316690
-    second: cyberpunk tileset_54
+      213: -8197824327255832674
+    second: cyberpunk tileset bn_54
   - first:
-      213: 2497501513859447656
-    second: cyberpunk tileset_55
+      213: -2809329128515804143
+    second: cyberpunk tileset bn_55
   - first:
-      213: 4039109854907533345
-    second: cyberpunk tileset_56
+      213: 862717125648096015
+    second: cyberpunk tileset bn_56
   - first:
-      213: -2148172517745213189
-    second: cyberpunk tileset_57
+      213: -4873163483169161337
+    second: cyberpunk tileset bn_57
   - first:
-      213: 6466849243914857410
-    second: cyberpunk tileset_58
+      213: -6390850334067254080
+    second: cyberpunk tileset bn_58
   - first:
-      213: -758583267849294771
-    second: cyberpunk tileset_59
+      213: -7650065038065709586
+    second: cyberpunk tileset bn_59
   - first:
-      213: -7234453959136015552
-    second: cyberpunk tileset_60
+      213: -3239254050866238123
+    second: cyberpunk tileset bn_60
   - first:
-      213: -2763890244119483465
-    second: cyberpunk tileset_61
+      213: -6175215832404152496
+    second: cyberpunk tileset bn_61
   - first:
-      213: -3913886779203068290
-    second: cyberpunk tileset_62
+      213: -4856485561828694289
+    second: cyberpunk tileset bn_62
   - first:
-      213: 7563696658179885487
-    second: cyberpunk tileset_63
+      213: -4157752232832949255
+    second: cyberpunk tileset bn_63
   - first:
-      213: 568111562196034227
-    second: cyberpunk tileset_64
+      213: -6185843001344097703
+    second: cyberpunk tileset bn_64
   - first:
-      213: -5742080734442965504
-    second: cyberpunk tileset_65
+      213: -4469417111739269698
+    second: cyberpunk tileset bn_65
   - first:
-      213: 6665759679756623157
-    second: cyberpunk tileset_66
+      213: -3436862625451724154
+    second: cyberpunk tileset bn_66
   - first:
-      213: 4537713727284699998
-    second: cyberpunk tileset_67
+      213: 6380132801384135229
+    second: cyberpunk tileset bn_67
+  - first:
+      213: -6634927584367786660
+    second: cyberpunk tileset bn_68
+  - first:
+      213: 1132595314579852996
+    second: cyberpunk tileset bn_69
+  - first:
+      213: -7425443436484340039
+    second: cyberpunk tileset bn_70
+  - first:
+      213: 4709423816864734206
+    second: cyberpunk tileset bn_71
+  - first:
+      213: 4289228796764100290
+    second: cyberpunk tileset bn_72
+  - first:
+      213: -7850061359966121466
+    second: cyberpunk tileset bn_73
+  - first:
+      213: -7036370820480014354
+    second: cyberpunk tileset bn_74
+  - first:
+      213: 4531623355422777392
+    second: cyberpunk tileset bn_75
+  - first:
+      213: -5882068521735498408
+    second: cyberpunk tileset bn_76
+  - first:
+      213: 5486614358389489490
+    second: cyberpunk tileset bn_77
+  - first:
+      213: 7182661186685936850
+    second: cyberpunk tileset bn_78
+  - first:
+      213: -3740674544743930512
+    second: cyberpunk tileset bn_79
+  - first:
+      213: 8246115402772032114
+    second: cyberpunk tileset bn_80
+  - first:
+      213: -4867244225971856787
+    second: cyberpunk tileset bn_81
+  - first:
+      213: -8220933393480611225
+    second: cyberpunk tileset bn_82
+  - first:
+      213: 4934744466518132044
+    second: cyberpunk tileset bn_83
+  - first:
+      213: -1521947612728164822
+    second: cyberpunk tileset bn_84
+  - first:
+      213: 6904626420660767789
+    second: cyberpunk tileset bn_85
+  - first:
+      213: 5842086072741095056
+    second: cyberpunk tileset bn_86
+  - first:
+      213: -1031321311967452385
+    second: cyberpunk tileset bn_87
+  - first:
+      213: 771608480308600361
+    second: cyberpunk tileset bn_88
+  - first:
+      213: 6598585654055712410
+    second: cyberpunk tileset bn_89
+  - first:
+      213: -8262675892423274897
+    second: cyberpunk tileset bn_90
+  - first:
+      213: 9178336150989869937
+    second: cyberpunk tileset bn_91
+  - first:
+      213: 2272861889053390890
+    second: cyberpunk tileset bn_92
+  - first:
+      213: -1026579268400775465
+    second: cyberpunk tileset bn_93
+  - first:
+      213: -6228417473090665910
+    second: cyberpunk tileset bn_94
+  - first:
+      213: 2638107849526680434
+    second: cyberpunk tileset bn_95
+  - first:
+      213: 7402563988072245139
+    second: cyberpunk tileset bn_96
+  - first:
+      213: -1439050654231062795
+    second: cyberpunk tileset bn_97
+  - first:
+      213: 9163187913660569285
+    second: cyberpunk tileset bn_98
+  - first:
+      213: 791237710296807240
+    second: cyberpunk tileset bn_99
+  - first:
+      213: -177106115874194466
+    second: cyberpunk tileset bn_100
+  - first:
+      213: 8322836830325524363
+    second: cyberpunk tileset bn_101
+  - first:
+      213: -9080646869257128033
+    second: cyberpunk tileset bn_102
+  - first:
+      213: 8720351189197164205
+    second: cyberpunk tileset bn_103
+  - first:
+      213: -3547361327648413753
+    second: cyberpunk tileset bn_104
+  - first:
+      213: -5840759028448346561
+    second: cyberpunk tileset bn_105
+  - first:
+      213: -8613140514431090690
+    second: cyberpunk tileset bn_106
+  - first:
+      213: -7614356441706044310
+    second: cyberpunk tileset bn_107
+  - first:
+      213: 4461467182022589701
+    second: cyberpunk tileset bn_108
+  - first:
+      213: 1920392841451966517
+    second: cyberpunk tileset bn_109
+  - first:
+      213: -2647830227746101305
+    second: cyberpunk tileset bn_110
+  - first:
+      213: 5980033159487101012
+    second: cyberpunk tileset bn_111
+  - first:
+      213: 5818089180357467071
+    second: cyberpunk tileset bn_112
+  - first:
+      213: 5003295321995447133
+    second: cyberpunk tileset bn_113
+  - first:
+      213: 1212067113001626393
+    second: cyberpunk tileset bn_114
+  - first:
+      213: -3092629055916830841
+    second: cyberpunk tileset bn_115
+  - first:
+      213: 7443345880671302536
+    second: cyberpunk tileset bn_116
+  - first:
+      213: 1342665943717741919
+    second: cyberpunk tileset bn_117
+  - first:
+      213: 6335442147019645596
+    second: cyberpunk tileset bn_118
+  - first:
+      213: 1858156808087077584
+    second: cyberpunk tileset bn_119
+  - first:
+      213: 9171879173847735397
+    second: cyberpunk tileset bn_120
+  - first:
+      213: -5940240213080976134
+    second: cyberpunk tileset bn_121
+  - first:
+      213: 2250085003659770360
+    second: cyberpunk tileset bn_122
+  - first:
+      213: -992612133081836772
+    second: cyberpunk tileset bn_123
+  - first:
+      213: 2932403544798276851
+    second: cyberpunk tileset bn_124
+  - first:
+      213: -8225278644717373898
+    second: cyberpunk tileset bn_125
+  - first:
+      213: -765981740406091755
+    second: cyberpunk tileset bn_126
+  - first:
+      213: 9084046743641910490
+    second: cyberpunk tileset bn_127
+  - first:
+      213: -1123631579046281856
+    second: cyberpunk tileset bn_128
+  - first:
+      213: -4473412679566361817
+    second: cyberpunk tileset bn_129
+  - first:
+      213: 2499840520709560750
+    second: cyberpunk tileset bn_130
+  - first:
+      213: 6043645812753438185
+    second: cyberpunk tileset bn_131
+  - first:
+      213: -180470258413155099
+    second: cyberpunk tileset bn_132
+  - first:
+      213: 5275201392867349460
+    second: cyberpunk tileset bn_133
+  - first:
+      213: -399593386957153163
+    second: cyberpunk tileset bn_134
+  - first:
+      213: 4870231258582103699
+    second: cyberpunk tileset bn_135
+  - first:
+      213: -8417744542821728962
+    second: cyberpunk tileset bn_136
+  - first:
+      213: 1993500203215809472
+    second: cyberpunk tileset bn_137
+  - first:
+      213: -282402184465370555
+    second: cyberpunk tileset bn_138
+  - first:
+      213: 8172724820203267985
+    second: cyberpunk tileset bn_139
+  - first:
+      213: 4133266404321854288
+    second: cyberpunk tileset bn_140
+  - first:
+      213: 2339399893347999890
+    second: cyberpunk tileset bn_141
+  - first:
+      213: -8325715547143168513
+    second: cyberpunk tileset bn_142
+  - first:
+      213: -8793813311081493575
+    second: cyberpunk tileset bn_143
+  - first:
+      213: 84619256842547114
+    second: cyberpunk tileset bn_144
+  - first:
+      213: -2301451231712487220
+    second: cyberpunk tileset bn_145
+  - first:
+      213: 7587598869297398803
+    second: cyberpunk tileset bn_146
+  - first:
+      213: 9216048062605813306
+    second: cyberpunk tileset bn_147
+  - first:
+      213: -352551386073940070
+    second: cyberpunk tileset bn_148
+  - first:
+      213: 8088299691054001835
+    second: cyberpunk tileset bn_149
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -327,7 +573,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cyberpunk tileset_0
+      name: cyberpunk tileset bn_0
       rect:
         serializedVersion: 2
         x: 1
@@ -341,14 +587,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: beaa33e22ae1a7600800000000000000
-      internalID: 466719193294940907
+      spriteID: b330e50bdb09ef390800000000000000
+      internalID: -7782623961667468485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_1
+      name: cyberpunk tileset bn_1
       rect:
         serializedVersion: 2
         x: 34
@@ -362,14 +608,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d58780db8cf9b7750800000000000000
-      internalID: 6303807787948865629
+      spriteID: f818696dbb7fcb340800000000000000
+      internalID: 4881048482293907855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_2
+      name: cyberpunk tileset bn_2
       rect:
         serializedVersion: 2
         x: 67
@@ -383,14 +629,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a06a886275fd4830800000000000000
-      internalID: 4057168711059660968
+      spriteID: 8896663befd039da0800000000000000
+      internalID: -5939388095988864632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_3
+      name: cyberpunk tileset bn_3
       rect:
         serializedVersion: 2
         x: 100
@@ -404,14 +650,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bad4edcba3289e000800000000000000
-      internalID: 65726858361982379
+      spriteID: 53eef549009da92e0800000000000000
+      internalID: -2118142078211854795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_4
+      name: cyberpunk tileset bn_4
       rect:
         serializedVersion: 2
         x: 133
@@ -425,14 +671,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30bcfd4f435e98e80800000000000000
-      internalID: -8175751632905057533
+      spriteID: 3c982bea8bbe1b150800000000000000
+      internalID: 5886745366387395011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_5
+      name: cyberpunk tileset bn_5
       rect:
         serializedVersion: 2
         x: 166
@@ -446,14 +692,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1230dbdc46f910730800000000000000
-      internalID: 3963624402360009505
+      spriteID: 945ac4bcd50e08b80800000000000000
+      internalID: -8394463011971226295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_6
+      name: cyberpunk tileset bn_6
       rect:
         serializedVersion: 2
         x: 199
@@ -467,14 +713,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2038765cff16ea6f0800000000000000
-      internalID: -671491543275175166
+      spriteID: d215f745a52376cd0800000000000000
+      internalID: -2565026099218132691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_7
+      name: cyberpunk tileset bn_7
       rect:
         serializedVersion: 2
         x: 233
@@ -488,14 +734,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d71d25a3c4886950800000000000000
-      internalID: 6442545242778179544
+      spriteID: 9319296ca63587660800000000000000
+      internalID: 7383743307137061177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_12
+      name: cyberpunk tileset bn_12
       rect:
         serializedVersion: 2
         x: 34
@@ -509,14 +755,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb7e105ef601ad100800000000000000
-      internalID: 133437211730372540
+      spriteID: 90b3128b8a8d90e70800000000000000
+      internalID: 9082028342724606729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_13
+      name: cyberpunk tileset bn_13
       rect:
         serializedVersion: 2
         x: 67
@@ -530,14 +776,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb1100c1afb34a110800000000000000
-      internalID: 1271206940222951867
+      spriteID: cfb768d5d38e8dfd0800000000000000
+      internalID: -2316846658022376452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_14
+      name: cyberpunk tileset bn_14
       rect:
         serializedVersion: 2
         x: 100
@@ -551,14 +797,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73292c3d064a024f0800000000000000
-      internalID: -855503193423834569
+      spriteID: 3f8ab859b08f9c450800000000000000
+      internalID: 6109687098142075123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_15
+      name: cyberpunk tileset bn_15
       rect:
         serializedVersion: 2
         x: 133
@@ -572,14 +818,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8f6ff03f0b384060800000000000000
-      internalID: 6937860162396843919
+      spriteID: e1d56fd3d1e4f8980800000000000000
+      internalID: -8534516881343226594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_16
+      name: cyberpunk tileset bn_16
       rect:
         serializedVersion: 2
         x: 166
@@ -593,14 +839,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09cf55e042d5ba7d0800000000000000
-      internalID: -2906126725096801136
+      spriteID: 4bf05f531c698a570800000000000000
+      internalID: 8478192055103066036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_17
+      name: cyberpunk tileset bn_17
       rect:
         serializedVersion: 2
         x: 199
@@ -614,14 +860,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac71aa586c1265b30800000000000000
-      internalID: 4275642032764622794
+      spriteID: 41513de00e5539d40800000000000000
+      internalID: 5589905983306667284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_18
+      name: cyberpunk tileset bn_18
       rect:
         serializedVersion: 2
         x: 441
@@ -635,14 +881,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 274fa7c2c55eb8d90800000000000000
-      internalID: -7094324603946077070
+      spriteID: 9bc21f7f0c4986cf0800000000000000
+      internalID: -258793422059393863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_26
+      name: cyberpunk tileset bn_26
       rect:
         serializedVersion: 2
         x: 166
@@ -656,14 +902,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4aecbdb6358568230800000000000000
-      internalID: 3640694464090721956
+      spriteID: 8d760d7b113791ed0800000000000000
+      internalID: -2442794802936256552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_27
+      name: cyberpunk tileset bn_27
       rect:
         serializedVersion: 2
         x: 199
@@ -677,14 +923,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28bd5d17d5d9cf990800000000000000
-      internalID: -7350827467108131966
+      spriteID: dd90016582ae359b0800000000000000
+      internalID: -5092469294662415907
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_28
+      name: cyberpunk tileset bn_28
       rect:
         serializedVersion: 2
         x: 472
@@ -698,14 +944,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bae2938ae110dd00800000000000000
-      internalID: 995315216576342707
+      spriteID: 828b24580327e4650800000000000000
+      internalID: 6219033688164972584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_29
+      name: cyberpunk tileset bn_29
       rect:
         serializedVersion: 2
         x: 0
@@ -719,14 +965,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1038de1a50ccbf90800000000000000
-      internalID: -6936457832760332261
+      spriteID: ac7490427a5afc210800000000000000
+      internalID: 1355484150144518090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_30
+      name: cyberpunk tileset bn_30
       rect:
         serializedVersion: 2
         x: 39
@@ -740,14 +986,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a317d8f51126f0980800000000000000
-      internalID: -8570523739105693382
+      spriteID: f923421d8327e1560800000000000000
+      internalID: 7286386835484586655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_31
+      name: cyberpunk tileset bn_31
       rect:
         serializedVersion: 2
         x: 53
@@ -761,14 +1007,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16d70fc195f9e9820800000000000000
-      internalID: 2926952012923829601
+      spriteID: f58a7156a242faee0800000000000000
+      internalID: -1247738807255062433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_32
+      name: cyberpunk tileset bn_32
       rect:
         serializedVersion: 2
         x: 67
@@ -782,14 +1028,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ad8e04f5370adfd0800000000000000
-      internalID: -2316531130019443289
+      spriteID: d9a570cc0824c0880800000000000000
+      internalID: -8643460463884543331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_40
+      name: cyberpunk tileset bn_40
       rect:
         serializedVersion: 2
         x: 105
@@ -803,14 +1049,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2af68743fa58ab5c0800000000000000
-      internalID: -4198896715023487070
+      spriteID: 64550f9d5ce89d6f0800000000000000
+      internalID: -659338890016959162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_41
+      name: cyberpunk tileset bn_41
       rect:
         serializedVersion: 2
         x: 234
@@ -824,14 +1070,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62062c340265dd800800000000000000
-      internalID: 638761418732232742
+      spriteID: 6e6a7df45f4749fd0800000000000000
+      internalID: -2336113709743102234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_42
+      name: cyberpunk tileset bn_42
       rect:
         serializedVersion: 2
         x: 267
@@ -845,14 +1091,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c1a3167e1256a10800000000000000
-      internalID: 1901963695286262827
+      spriteID: 9ba35a8119168c200800000000000000
+      internalID: 200517459229620921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_43
+      name: cyberpunk tileset bn_43
       rect:
         serializedVersion: 2
         x: 300
@@ -866,14 +1112,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c429f00bcde54cd0800000000000000
-      internalID: -2574390155821898551
+      spriteID: 02c4f4c74e154e7b0800000000000000
+      internalID: -5195938028298744800
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_44
+      name: cyberpunk tileset bn_44
       rect:
         serializedVersion: 2
         x: 334
@@ -887,14 +1133,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e421a10db031e7500800000000000000
-      internalID: 395774758712119886
+      spriteID: 934352d8f0c265a00800000000000000
+      internalID: 744831233680553017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_45
+      name: cyberpunk tileset bn_45
       rect:
         serializedVersion: 2
         x: 1
@@ -908,14 +1154,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77cd9043d5ca06740800000000000000
-      internalID: 5143300290762103927
+      spriteID: e52d347d12a1baac0800000000000000
+      internalID: -3842949124382797218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_46
+      name: cyberpunk tileset bn_46
       rect:
         serializedVersion: 2
         x: 68
@@ -929,14 +1175,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 71d1d5362767f59d0800000000000000
-      internalID: -2783375811026281193
+      spriteID: cc0a907974295be30800000000000000
+      internalID: 4518678637310484684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_53
+      name: cyberpunk tileset bn_53
       rect:
         serializedVersion: 2
         x: 300
@@ -950,14 +1196,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d075beb6fb06daf70800000000000000
-      internalID: 9200115989053396749
+      spriteID: 5e2f3b8b1a6478d30800000000000000
+      internalID: 4433590018572022501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_54
+      name: cyberpunk tileset bn_54
       rect:
         serializedVersion: 2
         x: 240
@@ -971,14 +1217,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29e4e7da3fc250870800000000000000
-      internalID: 8648368084534316690
+      spriteID: e974cd2553a7b3e80800000000000000
+      internalID: -8197824327255832674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_55
+      name: cyberpunk tileset bn_55
       rect:
         serializedVersion: 2
         x: 270
@@ -992,14 +1238,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86bb79ff468e8a220800000000000000
-      internalID: 2497501513859447656
+      spriteID: 11468a5ca024309d0800000000000000
+      internalID: -2809329128515804143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_56
+      name: cyberpunk tileset bn_56
       rect:
         serializedVersion: 2
         x: 300
@@ -1013,14 +1259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1280b8e430dcd0830800000000000000
-      internalID: 4039109854907533345
+      spriteID: f0b96e7a7acf8fb00800000000000000
+      internalID: 862717125648096015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_57
+      name: cyberpunk tileset bn_57
       rect:
         serializedVersion: 2
         x: 243
@@ -1034,623 +1280,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf04a830a782032e0800000000000000
-      internalID: -2148172517745213189
+      spriteID: 78ffb4591ab0f5cb0800000000000000
+      internalID: -4873163483169161337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_62
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 167
-        width: 116
-        height: 81
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7ed08206b41fa9c0800000000000000
-      internalID: -3913886779203068290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_63
-      rect:
-        serializedVersion: 2
-        x: 225
-        y: 164
-        width: 62
-        height: 53
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fa90f935906a7f860800000000000000
-      internalID: 7563696658179885487
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_64
-      rect:
-        serializedVersion: 2
-        x: 428
-        y: 124
-        width: 61
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3b2ac71b47652e700800000000000000
-      internalID: 568111562196034227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_65
-      rect:
-        serializedVersion: 2
-        x: 105
-        y: 129
-        width: 124
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 006b9efaef70050b0800000000000000
-      internalID: -5742080734442965504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_67
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 25
-        width: 185
-        height: 89
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e53e737d79239fe30800000000000000
-      internalID: 4537713727284699998
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_8
-      rect:
-        serializedVersion: 2
-        x: 341
-        y: 393
-        width: 94
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03054c56d5010de50800000000000000
-      internalID: 6831978628046409776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_9
-      rect:
-        serializedVersion: 2
-        x: 439
-        y: 486
-        width: 32
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc4549ee3cb0ddfe0800000000000000
-      internalID: -1162760192642493237
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_10
-      rect:
-        serializedVersion: 2
-        x: 474
-        y: 487
-        width: 32
-        height: 21
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 692a6fd7dd646a600800000000000000
-      internalID: 479148327476568726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_11
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 447
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9492e688ad27f530800000000000000
-      internalID: 3888627005098464414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_19
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 460
-        width: 20
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b211d956904c12b60800000000000000
-      internalID: 7719666780928282923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_20
-      rect:
-        serializedVersion: 2
-        x: 490
-        y: 456
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8849024a40698c1a0800000000000000
-      internalID: -6789011491583388536
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_21
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 414
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a833443e6b97a5680800000000000000
-      internalID: -8765559898319342710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_22
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 414
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 529afd8d110d0ae00800000000000000
-      internalID: 1054071087876253989
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_23
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 414
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 64da2f698a524c2c0800000000000000
-      internalID: -4412360328899023546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_24
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 414
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 75e706019fa1577c0800000000000000
-      internalID: -4074320630862807465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_25
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 414
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 741fe0f2b013ad080800000000000000
-      internalID: -9161956567827943097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_33
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 401
-        width: 32
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dad5e9e143797e710800000000000000
-      internalID: 1722511632600292781
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_34
-      rect:
-        serializedVersion: 2
-        x: 133
-        y: 381
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 133e6db4294c69060800000000000000
-      internalID: 6959966406764323633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_35
-      rect:
-        serializedVersion: 2
-        x: 166
-        y: 381
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6560f0c43eaf4d8b0800000000000000
-      internalID: -5128198221527579050
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_36
-      rect:
-        serializedVersion: 2
-        x: 199
-        y: 381
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31c185b5a2947a280800000000000000
-      internalID: -9032170081398285293
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_37
-      rect:
-        serializedVersion: 2
-        x: 472
-        y: 377
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4fd564dc9c991cc0800000000000000
-      internalID: -3739785818162208949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_38
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 348
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3557a123535556ac0800000000000000
-      internalID: -3862587418438109869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_39
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 348
-        width: 65
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3142bb4f6115e5080800000000000000
-      internalID: -9196824230006938605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_47
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 266
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8e4fe582fda8e6ea0800000000000000
-      internalID: -5877607772612266776
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_48
-      rect:
-        serializedVersion: 2
-        x: 134
-        y: 266
-        width: 32
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fbbd4dca1029a5c0800000000000000
-      internalID: -4203793477687985163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_49
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 266
-        width: 31
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38194491860ff49c0800000000000000
-      internalID: -3940666819034705533
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_50
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 271
-        width: 32
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ac4ce65ebf5f35570800000000000000
-      internalID: 8454371387739391178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_51
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 310
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cb9c324d97bbc99e0800000000000000
-      internalID: -1613208434580928068
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_52
-      rect:
-        serializedVersion: 2
-        x: 267
-        y: 310
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72ecbe92f8f59c510800000000000000
-      internalID: 1569891013603610151
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk tileset_58
+      name: cyberpunk tileset bn_58
       rect:
         serializedVersion: 2
         x: 300
@@ -1664,14 +1301,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cb6c8fdf1ddeb950800000000000000
-      internalID: 6466849243914857410
+      spriteID: 0cc1c393b732f47a0800000000000000
+      internalID: -6390850334067254080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_59
+      name: cyberpunk tileset bn_59
       rect:
         serializedVersion: 2
         x: 334
@@ -1685,14 +1322,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4ca94b7988f875f0800000000000000
-      internalID: -758583267849294771
+      spriteID: eed4571316285d590800000000000000
+      internalID: -7650065038065709586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_60
+      name: cyberpunk tileset bn_60
       rect:
         serializedVersion: 2
         x: 426
@@ -1706,14 +1343,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04b87c5347e0a9b90800000000000000
-      internalID: -7234453959136015552
+      spriteID: 55d6fd06a9bdb03d0800000000000000
+      internalID: -3239254050866238123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_61
+      name: cyberpunk tileset bn_61
       rect:
         serializedVersion: 2
         x: 1
@@ -1727,14 +1364,98 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7bb27197770b4a9d0800000000000000
-      internalID: -2763890244119483465
+      spriteID: 05fae2a0be93d4aa0800000000000000
+      internalID: -6175215832404152496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk tileset_66
+      name: cyberpunk tileset bn_62
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 167
+        width: 116
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe6236ebc1c4a9cb0800000000000000
+      internalID: -4856485561828694289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_63
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 164
+        width: 62
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f3a7e97f52bc46c0800000000000000
+      internalID: -4157752232832949255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_64
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 124
+        width: 61
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9528c847098772aa0800000000000000
+      internalID: -6185843001344097703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_65
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 129
+        width: 124
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebd7abd11d079f1c0800000000000000
+      internalID: -4469417111739269698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_66
       rect:
         serializedVersion: 2
         x: 105
@@ -1748,8 +1469,533 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53dd30eac19818c50800000000000000
-      internalID: 6665759679756623157
+      spriteID: 6823224c6afcd40d0800000000000000
+      internalID: -3436862625451724154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_67
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 25
+        width: 185
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ab15ebaf8ca8850800000000000000
+      internalID: 6380132801384135229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_8
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 393
+        width: 94
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af06cb3873f19b630800000000000000
+      internalID: 3943217272033403130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_9
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 486
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91300539b0224830800000000000000
+      internalID: 4053838594417111450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 487
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8455e3b5fe4d31e0800000000000000
+      internalID: -2216528624404310897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 447
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082f84a58655f9a20800000000000000
+      internalID: 3071267377569657472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_19
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 460
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da7c084323bff880800000000000000
+      internalID: -8574938201376130344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_20
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 456
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a23ec1b1176b0660800000000000000
+      internalID: 7353084142307652259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 414
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1740b990fbfcfae90800000000000000
+      internalID: -7012157675385715599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_22
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 413
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a934e19085f2b5380800000000000000
+      internalID: -8981532976703716454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_23
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 414
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34bf19a3318435bb0800000000000000
+      internalID: -4948532318125819069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_24
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 414
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b92195f7ce7733b0800000000000000
+      internalID: -5532814219917841998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_25
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 414
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a1d45d4bff5e8b0800000000000000
+      internalID: -5123407848926274938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_33
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 401
+        width: 32
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198e2883d682e8480800000000000000
+      internalID: -8895127764445501295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_34
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 381
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2634ee7c16a452fe0800000000000000
+      internalID: -1214482740679916702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_35
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 381
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab0e683eb2b9a350800000000000000
+      internalID: 6028546106272385957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_36
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 381
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8abc618d569d9da60800000000000000
+      internalID: 7699424069406870440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_37
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 377
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5faaf353debab2970800000000000000
+      internalID: 8731261337876802293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_38
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 348
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5686a7275864cc8c0800000000000000
+      internalID: -3977726831909771163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_39
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 348
+        width: 65
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2cfefd56944f7790800000000000000
+      internalID: -7530224639327405013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_47
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 266
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0169b99fd987a18d0800000000000000
+      internalID: -2874852792229718512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_48
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 266
+        width: 32
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa50beb70c5a2dca0800000000000000
+      internalID: -5993545907945405014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_49
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 266
+        width: 31
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 588f195ad33321470800000000000000
+      internalID: 8363803797844260997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_50
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 271
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74650557776680d50800000000000000
+      internalID: 6703720708596323911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_51
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 310
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed58d0c5ed3488d40800000000000000
+      internalID: 5586789960059291102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cyberpunk tileset bn_52
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 310
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91864ccbba8a0f930800000000000000
+      internalID: 4175022310132312089
       vertices: []
       indices: 
       edges: []

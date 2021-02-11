@@ -6,8 +6,10 @@ using UnityEngine;
 public class MenuManager : MonoBehaviour
 {
     [HideInInspector]public Language CurrentLanguage;
+
     public Action ChangeLanguageToSpanish;
     public Action ChangeLanguageToEnglish;
+
     private SoundManager Sound;
     public GameObject Menu;
     public GameObject Pause;
@@ -15,6 +17,8 @@ public class MenuManager : MonoBehaviour
     public GameObject Discharge;
     public GameObject Lose;
     public GameObject Creditos;
+    public GameObject Settings;
+    public GameObject Dialogos;
     public GameObject GameUI;
 
     bool canpause = false;
@@ -22,7 +26,18 @@ public class MenuManager : MonoBehaviour
     {
         Sound = GetComponent<SoundManager>();
         GetComponent<QuestController>().TerminarNivel += Complete;
+        GameManager.Instance.playerEnabled += StartGame;
         
+    }
+
+    private void StartGame()
+    {
+        FindObjectOfType<BotHealth>().OnEnablePlayer += HideExtraWindows;
+        FindObjectOfType<BotHealth>().OnPlayerDischarge += DischargeHandler;
+        FindObjectOfType<BotHealth>().OnPlayerTotalDamage += LoseHandler;
+        FindObjectOfType<CharacterInputs>().PauseGame += TooglePause;
+        canpause = true;
+        Dialogos.SetActive(false);
     }
 
     private void Complete(GameObject obj)
@@ -38,7 +53,9 @@ public class MenuManager : MonoBehaviour
         Win.SetActive(false);
         Discharge.SetActive(false);
         GameUI.SetActive(false);
+        
     }
+
     public void ChangeLanguage(Language language){
         CurrentLanguage=language;
         switch (language)
@@ -71,12 +88,8 @@ public class MenuManager : MonoBehaviour
         Discharge.SetActive(false);
         GameUI.SetActive(true);
         Sound.Level.TransitionTo(0.5f);
-        GameManager.Instance.FirstLevel();
-        FindObjectOfType<BotHealth>().OnEnablePlayer += HideExtraWindows;
-        FindObjectOfType<BotHealth>().OnPlayerDischarge += DischargeHandler;
-        FindObjectOfType<BotHealth>().OnPlayerTotalDamage += LoseHandler;
-        FindObjectOfType<CharacterInputs>().PauseGame += TooglePause;
-        canpause = true;
+        //GameManager.Instance.FirstLevel();
+        Dialogos.SetActive(true);
 
     }
 
@@ -121,6 +134,18 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+    public void ToogleSettings()
+    {
+        if (Settings.activeSelf == true)
+        {
+            Settings.SetActive(false);
+        }
+        else
+        {
+            Settings.SetActive(true);
+        }
+    }
+
     public void TooglePause()
     {
         if (canpause)
@@ -136,6 +161,8 @@ public class MenuManager : MonoBehaviour
         }
     }
 
+    public void setSpanish() => ChangeLanguage(Language.Spanish);
+    public void setEnglish() => ChangeLanguage(Language.English);
 }
 public enum Language{
     Spanish, English

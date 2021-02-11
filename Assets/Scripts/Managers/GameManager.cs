@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     public QuestController Quests;
+    public DialogoManager dialogos;
 
     public GameObject player;
     [SerializeField]
@@ -22,7 +23,8 @@ public class GameManager : MonoBehaviour
     bool CanPause;
     bool IsPlaying;
 
-
+    public event Action playerEnabled;
+    public event Action LevelRestarted = delegate { };
     private QuestController questmanager;
 
     private void Awake()
@@ -37,6 +39,7 @@ public class GameManager : MonoBehaviour
         }
         #endregion
 
+        
         questmanager = GetComponent<QuestController>();
         questmanager.TerminarNivel += Complete;
         player.GetComponent<BotHealth>().OnPlayerDischarge += PlayerLose;
@@ -114,6 +117,7 @@ public class GameManager : MonoBehaviour
         player.GetComponent<BotHealth>().Carga = player.GetComponent<BotHealth>().Carga_max;
         player.SetActive(true);
         questmanager.GenerateQuest(Currentlevel);
+        LevelRestarted?.Invoke();
         startlevel();
         CanPause = true;
         yield return null;
@@ -129,14 +133,10 @@ public class GameManager : MonoBehaviour
    
     //posiblemente activado desde el menu
     
-    public void QuestAnim()
-    {
-
-    }
 
     public void FirstLevel()
     {
-        QuestAnim();//cambiar por corutina para evitar activar el personaje? o buscar la forma que el personaje no pierda energia cuando no puede moverse
+        //cambiar por corutina para evitar activar el personaje? o buscar la forma que el personaje no pierda energia cuando no puede moverse
         /*
               play the timeline possibly....
               relocate object in scene randomizer code posiblemente parte de questController
@@ -146,6 +146,7 @@ public class GameManager : MonoBehaviour
         //Quests.GenerateQuest(Currentlevel);//Give first quest
         player.transform.position = new Vector2(PlayerstartPos.position.x, PlayerstartPos.position.y);
         player.SetActive(true);
+        playerEnabled();
         
         questmanager.GenerateQuest(Currentlevel);//posiblemente dentro de coorutina
 

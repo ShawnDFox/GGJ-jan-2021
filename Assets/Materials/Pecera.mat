@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Humaniode
-  m_Shader: {fileID: -6465566751694194690, guid: 321e25438bba82640ada8935af061681,
+  m_Name: Pecera
+  m_Shader: {fileID: -6465566751694194690, guid: 003bb93811517a74fa595625d40fe72f,
     type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
@@ -29,7 +29,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: eb6344bfd94e5cb42b663613499bf025, type: 3}
+        m_Texture: {fileID: 2800000, guid: 4f9f606aca89c344f849e09bf819468a, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskTex:
@@ -43,8 +43,7 @@ Material:
     m_Floats:
     - _EnableExternalAlpha: 0
     m_Colors:
-    - Color_12E72688: {r: 0.12477186, g: 0.90466136, b: 0.8796226, a: 0}
-    - Color_B38E2655: {r: 0.25015837, g: 0.001517635, b: 0.09989874, a: 1}
+    - Color_B38E2655: {r: 0.002731743, g: 0.21952623, b: 0.45078585, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}

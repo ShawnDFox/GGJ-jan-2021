@@ -13,9 +13,15 @@ public class BotEngine : MonoBehaviour
     private BotSFX sfx;
     private BotHealth Health;
     private Animator anims;
+    float dt=0.5f, ct;
 
     bool Facinright= true;
     public bool CanMove;
+
+    private void OnEnable()
+    {
+        Velocidad = 4;
+    }
 
     private void Awake()
     {
@@ -66,8 +72,15 @@ public class BotEngine : MonoBehaviour
                 anims.SetBool("Side", false);
                 LastVert = vert;
             }
-        
-            Health.DisCharge(0.025f);
+
+            if (ct > dt)
+            {
+                Health.DisCharge(0.025f);
+                ct = 0;
+            }
+            else {
+                ct += Time.deltaTime;
+            }
         
             Vector3 movement = new Vector3(Hor, vert, 0);
         
